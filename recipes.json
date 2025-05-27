@@ -691,8 +691,8 @@
     ]
   },
   "tiny_pile_of_flint_dust": {
-    "flint": 1,
-    "_output_count": 1,
+    "flint_dust": 1,
+    "_output_count": 9,
     "_tags": [
       "Any"
     ]
@@ -1191,7 +1191,7 @@
       "LV"
     ]
   },
-  "copper_wire": {
+  "1x_copper_wire": {
     "copper_plate": 1,
     "_output_count": 1,
     "_tags": [
@@ -1256,8 +1256,8 @@
     ]
   },
   "raw_rubber_dust": {
-    "sticky_resin": 1,
-    "_output_count": 3,
+    "rubber_wood": 1,
+    "_output_count": 1,
     "_tags": [
       "Any",
       "Steam",
@@ -1288,7 +1288,7 @@
     ]
   },
   "circuit_board": {
-    "copper_wire": 8,
+    "1x_copper_wire": 8,
     "coated_circuit_board": 1,
     "_output_count": 1,
     "_tags": [
@@ -1310,7 +1310,7 @@
   "resistor": {
     "sticky_resin": 2,
     "fine_copper_wire": 2,
-    "copper_wire": 2,
+    "1x_copper_wire": 2,
     "charcoal_dust": 1,
     "_output_count": 1,
     "_tags": [
@@ -1329,7 +1329,7 @@
     ]
   },
   "vacuum_tube": {
-    "copper_wire": 3,
+    "1x_copper_wire": 3,
     "fine_copper_wire": 2,
     "glass_tube": 1,
     "steel_rod": 2,
@@ -1378,6 +1378,14 @@
   "wood_pulp": {
     "wood": 1,
     "_output_count": 6,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "flint_dust": {
+    "flint": 2,
+    "_output_count": 1,
     "_tags": [
       "Any",
       "Steam"

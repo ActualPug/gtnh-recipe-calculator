@@ -78,7 +78,7 @@ def calculate_raw_materials(name, quantity, recipes, inventory=None):
 
         # No recipe means it's a raw material
         if not entry or not isinstance(entry, dict) or all(k.startswith("_") for k in entry.keys()):
-            raw_needed[item] = raw_needed.get(item, 0) + remaining
+            raw_needed[item] = raw_needed.get(item, 0) + qty_needed
             return
 
         output_count = entry.get("_output_count", 1)

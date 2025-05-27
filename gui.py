@@ -348,31 +348,39 @@ def view_raw_materials(name):
             inventory = inventory.copy()  # this one gets mutated
             component_totals = {}
 
-            def collect_components(item, qty_needed, is_root=False):
+            def collect_components(item, qty_needed):
                 nonlocal inventory
                 entry = recipes.get(item)
                 if isinstance(entry, list):
                     entry = entry[0]
 
+                # Check how much we already have
                 have = inventory.get(item, 0)
                 remaining = max(0, qty_needed - have)
                 inventory[item] = max(0, have - qty_needed)
 
-                if not is_root:
-                    component_totals[item] = component_totals.get(item, 0) + qty_needed
+                # Always record the total needed (regardless of how much inventory satisfies it)
+                component_totals[item] = component_totals.get(item, 0) + qty_needed
 
+                # ✅ If fully satisfied by inventory, no need to recurse
+                if remaining == 0:
+                    return
+
+                # Raw material or no recipe — stop here
                 if not entry or not isinstance(entry, dict) or all(k.startswith("_") for k in entry.keys()):
                     return
 
+                # Crafting logic
                 output_count = entry.get("_output_count", 1)
                 crafts_needed = ceil(remaining / output_count)
                 inputs = entry.get("_inputs", entry)
 
+                # Recurse into each input
                 for sub, count in inputs.items():
                     if not sub.startswith("_"):
                         collect_components(sub, count * crafts_needed)
 
-            collect_components(name, quantity, is_root=True)
+            collect_components(name, quantity)
 
             output_text.insert(tk.END, f"All Components Needed to Build {quantity}x {name}:\n\n")
 
