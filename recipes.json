@@ -1,0 +1,1386 @@
+{
+  "steam_presser_multiblock": {
+    "bronze_plated_bricks": 39,
+    "bronze_pipe_casing": 2,
+    "block_of_iron": 2,
+    "input_bus_steam": 1,
+    "output_bus_steam": 1,
+    "steam_hatch": 1,
+    "steam_presser": 1,
+    "_type": "multiblock",
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "LV",
+      "MV",
+      "Steam"
+    ]
+  },
+  "bronze_plated_bricks": {
+    "bronze_plate": 6,
+    "bricks": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bronze_plate": {
+    "bronze_ingot": 3,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bricks": {
+    "brick": 4,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "brick": {
+    "unfired_clay_brick": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "unfired_clay_brick": {
+    "clay": 8,
+    "_output_count": 8,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "block_of_iron": {
+    "iron_ingot": 9,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bronze_ingot": {
+    "copper_ingot": 3,
+    "tin_ingot": 1,
+    "_output_count": 4,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "bronze_pipe_casing": {
+    "bronze_plate": 4,
+    "bronze_fluid_pipe": 4,
+    "bronze_frame_box": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bronze_fluid_pipe": {
+    "bronze_plate": 6,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bronze_frame_box": {
+    "bronze_rod": 8,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bronze_rod": {
+    "bronze_ingot": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "input_bus_steam": {
+    "bronze_plate": 4,
+    "tumbaga_plate": 2,
+    "tin_plate": 2,
+    "hopper": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "hopper": {
+    "iron_plate": 5,
+    "iron_gear": 1,
+    "chest": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "chest": {
+    "wood": 4,
+    "wood_planks": 4,
+    "flint": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "iron_gear": {
+    "iron_rod": 4,
+    "iron_plate": 4,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "iron_plate": {
+    "iron_ingot": 3,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "iron_rod": {
+    "iron_ingot": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "output_bus_steam": {
+    "bronze_plate": 4,
+    "tumbaga_plate": 2,
+    "tin_plate": 2,
+    "hopper": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_hatch": {
+    "bronze_plate": 6,
+    "bronze_fluid_pipe": 2,
+    "ultra_low_voltage_fluid_tank": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_presser": {
+    "bronze_plated_bricks": 4,
+    "tumbaga_frame_box": 4,
+    "wrought_iron_plate": 3,
+    "anvil": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "anvil": {
+    "block_of_iron": 5,
+    "iron_screw": 2,
+    "iron_plate": 2,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "iron_screw": {
+    "iron_bolt": 2,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "iron_bolt": {
+    "iron_rod": 1,
+    "_output_count": 2,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "tin_plate": {
+    "tin_ingot": 3,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "tumbaga_frame_box": {
+    "tumbaga_rod": 8,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "tumbaga_plate": {
+    "tumbaga_ingot": 3,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "tumbaga_ingot": {
+    "tumbaga_dust": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "tumbaga_dust": {
+    "tumbaga_mix_dust": 3,
+    "gold_dust": 1,
+    "_output_count": 10,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "tumbaga_mix_dust": {
+    "gold_dust": 2,
+    "copper_dust": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "tumbaga_rod": {
+    "tumbaga_ingot": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "ultra_low_voltage_fluid_tank": {
+    "iron_plate": 4,
+    "tin_plate": 2,
+    "steel_plate": 1,
+    "large_clay_fluid_pipe": 1,
+    "water_bucket": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "large_clay_fluid_pipe": {
+    "clay_plate": 6,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "clay_plate": {
+    "clay_dust": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "clay_dust": {
+    "hardened_clay": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "steel_plate": {
+    "steel_ingot": 3,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "wrought_iron_plate": {
+    "wrought_iron_ingot": 3,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "wrought_iron_ingot": {
+    "wrought_iron_nugget": 9,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "wrought_iron_nugget": {
+    "iron_nugget": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "iron_nugget": {
+    "iron_ingot": 1,
+    "_output_count": 9,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "bricked_blast_furnace_multiblock": {
+    "firebricks": 32,
+    "bricked_blast_furnace": 1,
+    "_type": "multiblock",
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bricked_blast_furnace": {
+    "iron_furnace": 4,
+    "firebricks": 4,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "iron_furnace": {
+    "iron_plate": 7,
+    "furnace": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "furnace": {
+    "cobblestone": 6,
+    "flint": 3,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "firebricks": {
+    "firebrick": 6,
+    "gypsum_dust": 2,
+    "bucket_of_concrete": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bucket_of_concrete": {
+    "calcite_dust": 2,
+    "clay_dust": 1,
+    "stone_dust": 1,
+    "quartz_sand": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "firebrick": {
+    "compressed_fireclay": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "compressed_fireclay": {
+    "fireclay_dust": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "fireclay_dust": {
+    "clay_dust": 1,
+    "brick_dust": 1,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "brick_dust": {
+    "small_pile_of_brick_dust": 4,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "quartz_sand": {
+    "sand": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "small_pile_of_brick_dust": {
+    "brick": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "bricked_blast_furnace_side_multiblock": {
+    "bricked_blast_furnace": 1,
+    "firebricks": 20,
+    "_type": "multiblock",
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bricked_blast_furnace_corner_multiblock": {
+    "bricked_blast_furnace": 1,
+    "firebricks": 12,
+    "_type": "multiblock",
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "smeltery": {
+    "seared_bricks": 41,
+    "smeltery_drain": 2,
+    "smeltery_controller": 1,
+    "seared_tank": 1,
+    "seared_faucet": 2,
+    "casting_basin": 1,
+    "casting_table": 1,
+    "_type": "multiblock",
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "casting_basin": {
+    "seared_bricks": 7,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "casting_table": {
+    "seared_bricks": 4,
+    "seared_stone": 1,
+    "seared_brick": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "seared_brick": {
+    "unfired_seared_brick": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "seared_bricks": {
+    "seared_brick": 8,
+    "water_bucket": 1,
+    "_output_count": 2,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "seared_faucet": {
+    "seared_brick": 5,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "seared_stone": {
+    "cobblestone": 20,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "seared_tank": {
+    "seared_bricks": 4,
+    "seared_brick": 4,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "smeltery_controller": {
+    "seared_bricks": 4,
+    "seared_brick": 4,
+    "furnace": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "smeltery_drain": {
+    "seared_brick": 8,
+    "casting_channel": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "casting_channel": {
+    "seared_brick": 7,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "unfired_seared_brick": {
+    "grout": 8,
+    "_output_count": 8,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "grout": {
+    "sand": 3,
+    "gravel": 3,
+    "clay_dust": 2,
+    "water_bucket": 1,
+    "_output_count": 4,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "coke_oven": {
+    "coke_oven_brick_railcraft": 26,
+    "_type": "multiblock",
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "coke_oven_brick_railcraft": {
+    "coke_oven_brick": 4,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "coke_oven_brick": {
+    "unfired_coke_oven_brick": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "unfired_coke_oven_brick": {
+    "sand": 5,
+    "clay": 3,
+    "_output_count": 3,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "water_tank_railcraft": {
+    "water_tank_siding": 26,
+    "_type": "multiblock",
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "water_tank_siding": {
+    "wood_planks": 5,
+    "sticky_resin": 1,
+    "iron_rod": 4,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "iron_tank_railcraft_5x5": {
+    "iron_tank_wall": 87,
+    "iron_tank_valve": 2,
+    "iron_tank_gauge": 9,
+    "_type": "multiblock",
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "iron_tank_gauge": {
+    "clear_glass_pane": 2,
+    "iron_screw": 4,
+    "iron_plate": 2,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "clear_glass_pane": {
+    "glass_dust": 1,
+    "_output_count": 4,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "glass_dust": {
+    "quartz_sand": 1,
+    "tiny_pile_of_flint_dust": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "iron_tank_valve": {
+    "iron_screw": 4,
+    "large_bronze_fluid_pipe": 2,
+    "iron_bars": 2,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "iron_bars": {
+    "iron_rod": 6,
+    "_output_count": 3,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "iron_tank_wall": {
+    "iron_plate": 4,
+    "iron_screw": 4,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "large_bronze_fluid_pipe": {
+    "bronze_plate": 4,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "tiny_pile_of_flint_dust": {
+    "flint": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "steam_grinder_multiblock": {
+    "bronze_plated_bricks": 22,
+    "input_bus_steam": 1,
+    "output_bus_steam": 1,
+    "steam_hatch": 1,
+    "steam_grinder": 1,
+    "_type": "multiblock",
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "LV",
+      "MV",
+      "Steam"
+    ]
+  },
+  "steam_grinder": {
+    "bronze_plated_bricks": 4,
+    "piston": 2,
+    "diamond": 2,
+    "tumbaga_frame_box": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_oven_railcraft": {
+    "steam_oven": 8,
+    "_type": "multiblock",
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_oven": {
+    "high_pressure_boiler_tank": 4,
+    "steel_firebox_casing": 4,
+    "high_pressure_steam_furnace": 1,
+    "_output_count": 4,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "high_pressure_boiler_tank": {
+    "steel_casing": 6,
+    "steel_screw": 2,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "high_pressure_steam_furnace": {
+    "small_wrought_iron_fluid_pipe": 5,
+    "wrought_iron_plate": 2,
+    "steel_plate": 1,
+    "steam_furnace": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "small_wrought_iron_fluid_pipe": {
+    "wrought_iron_plate": 6,
+    "_output_count": 6,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_furnace": {
+    "small_bronze_fluid_pipe": 7,
+    "furnace": 1,
+    "bricked_bronze_hull": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bricked_bronze_hull": {
+    "bricks": 3,
+    "bronze_plate": 5,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "small_bronze_fluid_pipe": {
+    "bronze_plate": 6,
+    "_output_count": 6,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steel_casing": {
+    "steel_ingot": 2,
+    "_output_count": 3,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steel_firebox_casing": {
+    "steel_rod": 4,
+    "steel_plate": 4,
+    "steel_frame_box": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steel_frame_box": {
+    "steel_rod": 8,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steel_rod": {
+    "steel_ingot": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steel_screw": {
+    "steel_bolt": 2,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steel_bolt": {
+    "steel_rod": 1,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "high_pressure_steam_macerator": {
+    "wrought_iron_plate": 5,
+    "steel_plate": 1,
+    "small_wrought_iron_fluid_pipe": 2,
+    "steam_macerator": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_macerator": {
+    "diamond": 2,
+    "small_bronze_fluid_pipe": 4,
+    "piston": 2,
+    "bronze_hull": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bronze_hull": {
+    "bronze_plate": 8,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "high_pressure_steam_forge_hammer": {
+    "wrought_iron_plate": 5,
+    "steel_plate": 1,
+    "small_wrought_iron_fluid_pipe": 2,
+    "steam_forge_hammer": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_forge_hammer": {
+    "small_bronze_fluid_pipe": 6,
+    "anvil": 1,
+    "piston": 1,
+    "bronze_hull": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "piston": {
+    "coin_the_technician_1": 20,
+    "_output_count": 2,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "high_pressure_steam_extractor": {
+    "small_wrought_iron_fluid_pipe": 5,
+    "wrought_iron_plate": 2,
+    "steel_plate": 1,
+    "steam_extractor": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_extractor": {
+    "small_bronze_fluid_pipe": 6,
+    "piston": 1,
+    "bronze_hull": 1,
+    "glass": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "glass": {
+    "glass_dust": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "high_pressure_steam_compressor": {
+    "small_wrought_iron_fluid_pipe": 5,
+    "wrought_iron_plate": 2,
+    "steel_plate": 1,
+    "steam_compressor": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_compressor": {
+    "small_bronze_fluid_pipe": 6,
+    "piston": 2,
+    "bronze_hull": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "high_pressure_alloy_smelter": {
+    "wrought_iron_plate": 6,
+    "steel_plate": 1,
+    "small_wrought_iron_fluid_pipe": 1,
+    "steam_alloy_smelter": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_alloy_smelter": {
+    "furnace": 2,
+    "small_bronze_fluid_pipe": 6,
+    "bricked_bronze_hull": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steam_coal_boiler": {
+    "bronze_plate": 5,
+    "bricks": 2,
+    "iron_furnace": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "large_coal_boiler": {
+    "steel_plate": 5,
+    "bricks": 2,
+    "iron_furnace": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "reinforced_lava_boiler": {
+    "steel_plate": 7,
+    "steel_hull": 1,
+    "tank": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "steel_hull": {
+    "steel_plate": 8,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "tank": {
+    "iron_screw": 4,
+    "iron_ring": 2,
+    "obsidian_glass": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "iron_ring": {
+    "iron_rod": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "obsidian_glass": {
+    "thickened_glass": 1,
+    "obsidian_dust": 4,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "obsidian_dust": {
+    "obsidian": 1,
+    "_output_count": 9,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "thickened_glass": {
+    "clear_glass": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "clear_glass": {
+    "glass_dust": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "simple_solar_boiler": {
+    "glass": 3,
+    "small_bronze_fluid_pipe": 2,
+    "bricked_bronze_hull": 1,
+    "double_silver_plate": 3,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "double_silver_plate": {
+    "silver_plate": 2,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "silver_plate": {
+    "silver_ingot": 3,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "advanced_solar_boiler": {
+    "small_steel_fluid_pipe": 2,
+    "bricked_wrought_iron_hull": 1,
+    "triple_silver_plate": 3,
+    "reinforced_glass": 3,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "bricked_wrought_iron_hull": {
+    "wrought_iron_plate": 5,
+    "bricks": 3,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "reinforced_glass": {
+    "advanced_alloy": 1,
+    "glass_dust": 3,
+    "_output_count": 4,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "advanced_alloy": {
+    "mixed_metal_ingot": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "mixed_metal_ingot": {
+    "iron_plate": 1,
+    "bronze_plate": 1,
+    "tin_plate": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "small_steel_fluid_pipe": {
+    "steel_plate": 6,
+    "_output_count": 6,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "triple_silver_plate": {
+    "double_silver_plate": 1,
+    "silver_plate": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "red_alloy_wire": {
+    "red_alloy_plate": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "red_alloy_plate": {
+    "red_alloy_ingot": 3,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "red_alloy_ingot": {
+    "copper_ingot": 1,
+    "redstone": 4,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "tin_wire": {
+    "tin_plate": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "copper_wire": {
+    "copper_plate": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "copper_plate": {
+    "copper_ingot": 3,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  },
+  "fine_copper_wire": {
+    "copper_foil": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "copper_foil": {
+    "copper_plate": 1,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "red_alloy_cable": {
+    "red_alloy_wire": 1,
+    "rubber_sheet": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "rubber_sheet": {
+    "rubber_bar": 2,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "rubber_bar": {
+    "raw_rubber_dust": 3,
+    "sulfur_dust": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "raw_rubber_dust": {
+    "sticky_resin": 1,
+    "_output_count": 3,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "tin_cable": {
+    "tin_wire": 1,
+    "rubber_sheet": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "electronic_circuit": {
+    "resistor": 2,
+    "steel_casing": 1,
+    "vacuum_tube": 2,
+    "circuit_board": 1,
+    "red_alloy_cable": 3,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "circuit_board": {
+    "copper_wire": 8,
+    "coated_circuit_board": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "coated_circuit_board": {
+    "sticky_resin": 2,
+    "wood_plank": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "resistor": {
+    "sticky_resin": 2,
+    "fine_copper_wire": 2,
+    "copper_wire": 2,
+    "charcoal_dust": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "charcoal_dust": {
+    "charcoal": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "vacuum_tube": {
+    "copper_wire": 3,
+    "fine_copper_wire": 2,
+    "glass_tube": 1,
+    "steel_rod": 2,
+    "red_alloy_bolt": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "glass_tube": {
+    "glass_dust": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "red_alloy_bolt": {
+    "red_alloy_rod": 1,
+    "_output_count": 2,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "red_alloy_rod": {
+    "red_alloy_ingot": 1,
+    "_output_count": 1,
+    "_tags": [
+      "Any",
+      "Steam",
+      "LV"
+    ]
+  },
+  "wood_plank": {
+    "wood_pulp": 8,
+    "_output_count": 1,
+    "_tags": [
+      "Any"
+    ]
+  },
+  "wood_pulp": {
+    "wood": 1,
+    "_output_count": 6,
+    "_tags": [
+      "Any",
+      "Steam"
+    ]
+  }
+}
