@@ -1,1394 +1,4625 @@
 {
-  "steam_presser_multiblock": {
-    "bronze_plated_bricks": 39,
-    "bronze_pipe_casing": 2,
-    "block_of_iron": 2,
-    "input_bus_steam": 1,
-    "output_bus_steam": 1,
-    "steam_hatch": 1,
-    "steam_presser": 1,
-    "_type": "multiblock",
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "LV",
-      "MV",
-      "Steam"
-    ]
-  },
-  "bronze_plated_bricks": {
-    "bronze_plate": 6,
-    "bricks": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bronze_plate": {
-    "bronze_ingot": 3,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bricks": {
-    "brick": 4,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "brick": {
-    "unfired_clay_brick": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "unfired_clay_brick": {
-    "clay": 8,
-    "_output_count": 8,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "block_of_iron": {
-    "iron_ingot": 9,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bronze_ingot": {
-    "copper_ingot": 3,
-    "tin_ingot": 1,
-    "_output_count": 4,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "bronze_pipe_casing": {
-    "bronze_plate": 4,
-    "bronze_fluid_pipe": 4,
-    "bronze_frame_box": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bronze_fluid_pipe": {
-    "bronze_plate": 6,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bronze_frame_box": {
-    "bronze_rod": 8,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bronze_rod": {
-    "bronze_ingot": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "input_bus_steam": {
-    "bronze_plate": 4,
-    "tumbaga_plate": 2,
-    "tin_plate": 2,
-    "hopper": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "hopper": {
-    "iron_plate": 5,
-    "iron_gear": 1,
-    "chest": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "chest": {
-    "wood": 4,
-    "wood_planks": 4,
-    "flint": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "iron_gear": {
-    "iron_rod": 4,
-    "iron_plate": 4,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "iron_plate": {
-    "iron_ingot": 3,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "iron_rod": {
-    "iron_ingot": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "output_bus_steam": {
-    "bronze_plate": 4,
-    "tumbaga_plate": 2,
-    "tin_plate": 2,
-    "hopper": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_hatch": {
-    "bronze_plate": 6,
-    "bronze_fluid_pipe": 2,
-    "ultra_low_voltage_fluid_tank": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_presser": {
-    "bronze_plated_bricks": 4,
-    "tumbaga_frame_box": 4,
-    "wrought_iron_plate": 3,
-    "anvil": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "anvil": {
-    "block_of_iron": 5,
-    "iron_screw": 2,
-    "iron_plate": 2,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "iron_screw": {
-    "iron_bolt": 2,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "iron_bolt": {
-    "iron_rod": 1,
-    "_output_count": 2,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "tin_plate": {
-    "tin_ingot": 3,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "tumbaga_frame_box": {
-    "tumbaga_rod": 8,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "tumbaga_plate": {
-    "tumbaga_ingot": 3,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "tumbaga_ingot": {
-    "tumbaga_dust": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "tumbaga_dust": {
-    "tumbaga_mix_dust": 3,
-    "gold_dust": 1,
-    "_output_count": 10,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "tumbaga_mix_dust": {
-    "gold_dust": 2,
-    "copper_dust": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "tumbaga_rod": {
-    "tumbaga_ingot": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "ultra_low_voltage_fluid_tank": {
-    "iron_plate": 4,
-    "tin_plate": 2,
-    "steel_plate": 1,
-    "large_clay_fluid_pipe": 1,
-    "water_bucket": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "large_clay_fluid_pipe": {
-    "clay_plate": 6,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "clay_plate": {
-    "clay_dust": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "clay_dust": {
-    "hardened_clay": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "steel_plate": {
-    "steel_ingot": 3,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "wrought_iron_plate": {
-    "wrought_iron_ingot": 3,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "wrought_iron_ingot": {
-    "wrought_iron_nugget": 9,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "wrought_iron_nugget": {
-    "iron_nugget": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "iron_nugget": {
-    "iron_ingot": 1,
-    "_output_count": 9,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "bricked_blast_furnace_multiblock": {
-    "firebricks": 32,
-    "bricked_blast_furnace": 1,
-    "_type": "multiblock",
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bricked_blast_furnace": {
-    "iron_furnace": 4,
-    "firebricks": 4,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "iron_furnace": {
-    "iron_plate": 7,
-    "furnace": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "furnace": {
-    "cobblestone": 6,
-    "flint": 3,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "firebricks": {
-    "firebrick": 6,
-    "gypsum_dust": 2,
-    "bucket_of_concrete": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bucket_of_concrete": {
-    "calcite_dust": 2,
-    "clay_dust": 1,
-    "stone_dust": 1,
-    "quartz_sand": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "firebrick": {
-    "compressed_fireclay": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "compressed_fireclay": {
-    "fireclay_dust": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "fireclay_dust": {
-    "clay_dust": 1,
-    "brick_dust": 1,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "brick_dust": {
-    "small_pile_of_brick_dust": 4,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "quartz_sand": {
-    "sand": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "small_pile_of_brick_dust": {
-    "brick": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "bricked_blast_furnace_side_multiblock": {
-    "bricked_blast_furnace": 1,
-    "firebricks": 20,
-    "_type": "multiblock",
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bricked_blast_furnace_corner_multiblock": {
-    "bricked_blast_furnace": 1,
-    "firebricks": 12,
-    "_type": "multiblock",
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "smeltery": {
-    "seared_bricks": 41,
-    "smeltery_drain": 2,
-    "smeltery_controller": 1,
-    "seared_tank": 1,
-    "seared_faucet": 2,
-    "casting_basin": 1,
-    "casting_table": 1,
-    "_type": "multiblock",
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "casting_basin": {
-    "seared_bricks": 7,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "casting_table": {
-    "seared_bricks": 4,
-    "seared_stone": 1,
-    "seared_brick": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "seared_brick": {
-    "unfired_seared_brick": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "seared_bricks": {
-    "seared_brick": 8,
-    "water_bucket": 1,
-    "_output_count": 2,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "seared_faucet": {
-    "seared_brick": 5,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "seared_stone": {
-    "cobblestone": 20,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "seared_tank": {
-    "seared_bricks": 4,
-    "seared_brick": 4,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "smeltery_controller": {
-    "seared_bricks": 4,
-    "seared_brick": 4,
-    "furnace": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "smeltery_drain": {
-    "seared_brick": 8,
-    "casting_channel": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "casting_channel": {
-    "seared_brick": 7,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "unfired_seared_brick": {
-    "grout": 8,
-    "_output_count": 8,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "grout": {
-    "sand": 3,
-    "gravel": 3,
-    "clay_dust": 2,
-    "water_bucket": 1,
-    "_output_count": 4,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "coke_oven": {
-    "coke_oven_brick_railcraft": 26,
-    "_type": "multiblock",
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "coke_oven_brick_railcraft": {
-    "coke_oven_brick": 4,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "coke_oven_brick": {
-    "unfired_coke_oven_brick": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "unfired_coke_oven_brick": {
-    "sand": 5,
-    "clay": 3,
-    "_output_count": 3,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "water_tank_railcraft": {
-    "water_tank_siding": 26,
-    "_type": "multiblock",
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "water_tank_siding": {
-    "wood_planks": 5,
-    "sticky_resin": 1,
-    "iron_rod": 4,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "iron_tank_railcraft_5x5": {
-    "iron_tank_wall": 87,
-    "iron_tank_valve": 2,
-    "iron_tank_gauge": 9,
-    "_type": "multiblock",
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "iron_tank_gauge": {
-    "clear_glass_pane": 2,
-    "iron_screw": 4,
-    "iron_plate": 2,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "clear_glass_pane": {
-    "glass_dust": 1,
-    "_output_count": 4,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "glass_dust": {
-    "quartz_sand": 1,
-    "tiny_pile_of_flint_dust": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "iron_tank_valve": {
-    "iron_screw": 4,
-    "large_bronze_fluid_pipe": 2,
-    "iron_bars": 2,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "iron_bars": {
-    "iron_rod": 6,
-    "_output_count": 3,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "iron_tank_wall": {
-    "iron_plate": 4,
-    "iron_screw": 4,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "large_bronze_fluid_pipe": {
-    "bronze_plate": 4,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "tiny_pile_of_flint_dust": {
-    "flint_dust": 1,
-    "_output_count": 9,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "steam_grinder_multiblock": {
-    "bronze_plated_bricks": 22,
-    "input_bus_steam": 1,
-    "output_bus_steam": 1,
-    "steam_hatch": 1,
-    "steam_grinder": 1,
-    "_type": "multiblock",
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "LV",
-      "MV",
-      "Steam"
-    ]
-  },
-  "steam_grinder": {
-    "bronze_plated_bricks": 4,
-    "piston": 2,
-    "diamond": 2,
-    "tumbaga_frame_box": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_oven_railcraft": {
-    "steam_oven": 8,
-    "_type": "multiblock",
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_oven": {
-    "high_pressure_boiler_tank": 4,
-    "steel_firebox_casing": 4,
-    "high_pressure_steam_furnace": 1,
-    "_output_count": 4,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "high_pressure_boiler_tank": {
-    "steel_casing": 6,
-    "steel_screw": 2,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "high_pressure_steam_furnace": {
-    "small_wrought_iron_fluid_pipe": 5,
-    "wrought_iron_plate": 2,
-    "steel_plate": 1,
-    "steam_furnace": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "small_wrought_iron_fluid_pipe": {
-    "wrought_iron_plate": 6,
-    "_output_count": 6,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_furnace": {
-    "small_bronze_fluid_pipe": 7,
-    "furnace": 1,
-    "bricked_bronze_hull": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bricked_bronze_hull": {
-    "bricks": 3,
-    "bronze_plate": 5,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "small_bronze_fluid_pipe": {
-    "bronze_plate": 6,
-    "_output_count": 6,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steel_casing": {
-    "steel_ingot": 2,
-    "_output_count": 3,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steel_firebox_casing": {
-    "steel_rod": 4,
-    "steel_plate": 4,
-    "steel_frame_box": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steel_frame_box": {
-    "steel_rod": 8,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steel_rod": {
-    "steel_ingot": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steel_screw": {
-    "steel_bolt": 2,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steel_bolt": {
-    "steel_rod": 1,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "high_pressure_steam_macerator": {
-    "wrought_iron_plate": 5,
-    "steel_plate": 1,
-    "small_wrought_iron_fluid_pipe": 2,
-    "steam_macerator": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_macerator": {
-    "diamond": 2,
-    "small_bronze_fluid_pipe": 4,
-    "piston": 2,
-    "bronze_hull": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bronze_hull": {
-    "bronze_plate": 8,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "high_pressure_steam_forge_hammer": {
-    "wrought_iron_plate": 5,
-    "steel_plate": 1,
-    "small_wrought_iron_fluid_pipe": 2,
-    "steam_forge_hammer": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_forge_hammer": {
-    "small_bronze_fluid_pipe": 6,
-    "anvil": 1,
-    "piston": 1,
-    "bronze_hull": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "piston": {
-    "coin_the_technician_1": 20,
-    "_output_count": 2,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "high_pressure_steam_extractor": {
-    "small_wrought_iron_fluid_pipe": 5,
-    "wrought_iron_plate": 2,
-    "steel_plate": 1,
-    "steam_extractor": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_extractor": {
-    "small_bronze_fluid_pipe": 6,
-    "piston": 1,
-    "bronze_hull": 1,
-    "glass": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "glass": {
-    "glass_dust": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "high_pressure_steam_compressor": {
-    "small_wrought_iron_fluid_pipe": 5,
-    "wrought_iron_plate": 2,
-    "steel_plate": 1,
-    "steam_compressor": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_compressor": {
-    "small_bronze_fluid_pipe": 6,
-    "piston": 2,
-    "bronze_hull": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "high_pressure_alloy_smelter": {
-    "wrought_iron_plate": 6,
-    "steel_plate": 1,
-    "small_wrought_iron_fluid_pipe": 1,
-    "steam_alloy_smelter": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_alloy_smelter": {
-    "furnace": 2,
-    "small_bronze_fluid_pipe": 6,
-    "bricked_bronze_hull": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steam_coal_boiler": {
-    "bronze_plate": 5,
-    "bricks": 2,
-    "iron_furnace": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "large_coal_boiler": {
-    "steel_plate": 5,
-    "bricks": 2,
-    "iron_furnace": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "reinforced_lava_boiler": {
-    "steel_plate": 7,
-    "steel_hull": 1,
-    "tank": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "steel_hull": {
-    "steel_plate": 8,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "tank": {
-    "iron_screw": 4,
-    "iron_ring": 2,
-    "obsidian_glass": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "iron_ring": {
-    "iron_rod": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "obsidian_glass": {
-    "thickened_glass": 1,
-    "obsidian_dust": 4,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "obsidian_dust": {
-    "obsidian": 1,
-    "_output_count": 9,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "thickened_glass": {
-    "clear_glass": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "clear_glass": {
-    "glass_dust": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "simple_solar_boiler": {
-    "glass": 3,
-    "small_bronze_fluid_pipe": 2,
-    "bricked_bronze_hull": 1,
-    "double_silver_plate": 3,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "double_silver_plate": {
-    "silver_plate": 2,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "silver_plate": {
-    "silver_ingot": 3,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "advanced_solar_boiler": {
-    "small_steel_fluid_pipe": 2,
-    "bricked_wrought_iron_hull": 1,
-    "triple_silver_plate": 3,
-    "reinforced_glass": 3,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "bricked_wrought_iron_hull": {
-    "wrought_iron_plate": 5,
-    "bricks": 3,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "reinforced_glass": {
-    "advanced_alloy": 1,
-    "glass_dust": 3,
-    "_output_count": 4,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "advanced_alloy": {
-    "mixed_metal_ingot": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "mixed_metal_ingot": {
-    "iron_plate": 1,
-    "bronze_plate": 1,
-    "tin_plate": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "small_steel_fluid_pipe": {
-    "steel_plate": 6,
-    "_output_count": 6,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "triple_silver_plate": {
-    "double_silver_plate": 1,
-    "silver_plate": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "red_alloy_wire": {
-    "red_alloy_plate": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "red_alloy_plate": {
-    "red_alloy_ingot": 3,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "red_alloy_ingot": {
-    "copper_ingot": 1,
-    "redstone": 4,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "tin_wire": {
-    "tin_plate": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "1x_copper_wire": {
-    "copper_plate": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "copper_plate": {
-    "copper_ingot": 3,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "fine_copper_wire": {
-    "copper_foil": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "copper_foil": {
-    "copper_plate": 1,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "red_alloy_cable": {
-    "red_alloy_wire": 1,
-    "rubber_sheet": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "rubber_sheet": {
-    "rubber_bar": 2,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "rubber_bar": {
-    "raw_rubber_dust": 3,
-    "sulfur_dust": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "raw_rubber_dust": {
-    "rubber_wood": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "tin_cable": {
-    "tin_wire": 1,
-    "rubber_sheet": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "electronic_circuit": {
-    "resistor": 2,
-    "steel_casing": 1,
-    "vacuum_tube": 2,
-    "circuit_board": 1,
-    "red_alloy_cable": 3,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "circuit_board": {
-    "1x_copper_wire": 8,
-    "coated_circuit_board": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "coated_circuit_board": {
-    "sticky_resin": 2,
-    "wood_plank": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "resistor": {
-    "sticky_resin": 2,
-    "fine_copper_wire": 2,
-    "1x_copper_wire": 2,
-    "charcoal_dust": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "charcoal_dust": {
-    "charcoal": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "vacuum_tube": {
-    "1x_copper_wire": 3,
-    "fine_copper_wire": 2,
-    "glass_tube": 1,
-    "steel_rod": 2,
-    "red_alloy_bolt": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "glass_tube": {
-    "glass_dust": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "red_alloy_bolt": {
-    "red_alloy_rod": 1,
-    "_output_count": 2,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "red_alloy_rod": {
-    "red_alloy_ingot": 1,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam",
-      "LV"
-    ]
-  },
-  "wood_plank": {
-    "wood_pulp": 8,
-    "_output_count": 1,
-    "_tags": [
-      "Any"
-    ]
-  },
-  "wood_pulp": {
-    "wood": 1,
-    "_output_count": 6,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  },
-  "flint_dust": {
-    "flint": 2,
-    "_output_count": 1,
-    "_tags": [
-      "Any",
-      "Steam"
-    ]
-  }
+  "16x_low_voltage_battery_buffer": [
+    {
+      "16x_tin_wire": 4,
+      "lv_machine_hull": 1,
+      "chest": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "16x_low_voltage_battery_buffer": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "16x_tin_cable": [
+    {
+      "16x_tin_wire": 1,
+      "rubber_sheet": 5,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "16x_tin_cable": 1
+      },
+      "_machine": "Shapeless Crafting"
+    }
+  ],
+  "16x_tin_wire": [
+    {
+      "tin_ingot": 8,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "16x_tin_wire": 1
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "1x_copper_wire": [
+    {
+      "copper_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "1x_copper_wire": 2
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "1x_gold_wire": [
+    {
+      "gold_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "1x_gold_wire": 2
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "1x_red_alloy_cable": [
+    {
+      "1x_red_alloy_wire": 1,
+      "rubber_sheet": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "1x_red_alloy_cable": 1
+      },
+      "_machine": "Shapeless Crafting"
+    }
+  ],
+  "1x_red_alloy_wire": [
+    {
+      "red_alloy_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "1x_red_alloy_wire": 2
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "1x_tin_cable": [
+    {
+      "1x_tin_wire": 1,
+      "rubber_sheet": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "1x_tin_cable": 1
+      },
+      "_machine": "Shapeless Crafting"
+    }
+  ],
+  "1x_tin_wire": [
+    {
+      "tin_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "1x_tin_wire": 2
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "2x_cupronickel_wire": [
+    {
+      "cupronickel_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "2x_cupronickel_wire": 1
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "4x_copper_wire": [
+    {
+      "copper_ingot": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "4x_copper_wire": 1
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "4x_tin_cable": [
+    {
+      "4x_tin_wire": 1,
+      "rubber_sheet": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "4x_tin_cable": 1
+      },
+      "_machine": "Shapeless Crafting"
+    }
+  ],
+  "4x_tin_wire": [
+    {
+      "tin_ingot": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "4x_tin_wire": 1
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "advanced_alloy": [
+    {
+      "mixed_metal_ingot": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "advanced_alloy": 1
+      },
+      "_machine": "Compressor"
+    },
+    {
+      "mixed_metal_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "advanced_alloy": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "advanced_solar_boiler": [
+    {
+      "small_steel_fluid_pipe": 2,
+      "bricked_wrought_iron_hull": 1,
+      "triple_silver_plate": 3,
+      "reinforced_glass": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "advanced_solar_boiler": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "anvil": [
+    {
+      "block_of_iron": 5,
+      "iron_screw": 2,
+      "iron_plate": 2,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "anvil": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_alloy_smelter": [
+    {
+      "4x_copper_wire": 4,
+      "1x_tin_cable": 2,
+      "electronic_circuit": 2,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_alloy_smelter": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_arc_furnace": [
+    {
+      "4x_tin_cable": 2,
+      "graphite_cell": 1,
+      "electronic_circuit": 2,
+      "lv_machine_hull": 1,
+      "steel_plate": 3,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_arc_furnace": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_assembling_machine": [
+    {
+      "robot_arm_lv": 2,
+      "1x_tin_cable": 2,
+      "conveyor_module_lv": 2,
+      "electronic_circuit": 2,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_assembling_machine": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_bending_machine": [
+    {
+      "electric_piston_lv": 2,
+      "electronic_circuit": 2,
+      "lv_machine_hull": 1,
+      "electric_motor_lv": 2,
+      "1x_tin_cable": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_bending_machine": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_brewery": [
+    {
+      "glass": 2,
+      "electric_pump_lv": 1,
+      "1x_tin_cable": 2,
+      "lv_machine_hull": 1,
+      "electronic_circuit": 2,
+      "brewing_stand": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_brewery": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_canning_machine": [
+    {
+      "glass": 3,
+      "electronic_circuit": 2,
+      "1x_tin_cable": 2,
+      "electric_pump_lv": 1,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_canning_machine": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_centrifuge": [
+    {
+      "electronic_circuit": 4,
+      "electric_motor_lv": 2,
+      "1x_tin_cable": 2,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_centrifuge": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_circuit_assembler": [
+    {
+      "robot_arm_lv": 1,
+      "good_electronic_circuit": 2,
+      "emitter_lv": 1,
+      "conveyor_module_lv": 2,
+      "lv_machine_hull": 1,
+      "1x_tin_cable": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_circuit_assembler": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_combustion_generator": [
+    {
+      "electric_piston_lv": 2,
+      "electronic_circuit": 1,
+      "electric_motor_lv": 2,
+      "lv_machine_hull": 1,
+      "steel_gear": 2,
+      "1x_tin_cable": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_combustion_generator": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_cutting_machine": [
+    {
+      "1x_tin_cable": 2,
+      "electronic_circuit": 2,
+      "glass": 1,
+      "electric_motor_lv": 1,
+      "conveyor_module_lv": 1,
+      "diamond_sawblade": 1,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_cutting_machine": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_electrolyzer": [
+    {
+      "1x_gold_wire": 4,
+      "glass": 1,
+      "lv_machine_hull": 1,
+      "electronic_circuit": 2,
+      "1x_tin_cable": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_electrolyzer": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_extractor": [
+    {
+      "glass": 2,
+      "electronic_circuit": 2,
+      "1x_tin_cable": 2,
+      "electric_piston_lv": 1,
+      "electric_pump_lv": 1,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_extractor": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_extruder": [
+    {
+      "4x_copper_wire": 4,
+      "electronic_circuit": 2,
+      "electric_piston_lv": 1,
+      "bronze_fluid_pipe": 1,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_extruder": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_fluid_extractor": [
+    {
+      "glass": 2,
+      "electric_piston_lv": 1,
+      "1x_tin_cable": 2,
+      "electric_pump_lv": 1,
+      "electronic_circuit": 2,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_fluid_extractor": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_forming_press": [
+    {
+      "1x_tin_cable": 4,
+      "electronic_circuit": 2,
+      "electric_piston_lv": 2,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_forming_press": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_lathe": [
+    {
+      "1x_tin_cable": 3,
+      "electronic_circuit": 2,
+      "electric_motor_lv": 1,
+      "lv_machine_hull": 1,
+      "diamond": 1,
+      "electric_piston_lv": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_lathe": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_mixer": [
+    {
+      "glass": 4,
+      "tin_rotor": 1,
+      "electric_motor_lv": 1,
+      "electronic_circuit": 2,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_mixer": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_pump": [
+    {
+      "electronic_circuit": 2,
+      "electric_pump_lv": 4,
+      "large_bronze_fluid_pipe": 2,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_pump": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_steam_turbine": [
+    {
+      "bronze_fluid_pipe": 2,
+      "electronic_circuit": 1,
+      "tin_rotor": 2,
+      "lv_machine_hull": 1,
+      "electric_motor_lv": 2,
+      "1x_tin_cable": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_steam_turbine": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "basic_wiremill": [
+    {
+      "electric_motor_lv": 4,
+      "1x_tin_cable": 2,
+      "electronic_circuit": 2,
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "basic_wiremill": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "battery_alloy_ingot": [
+    {
+      "lead_ingot": 4,
+      "antimony_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "battery_alloy_ingot": 5
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "battery_alloy_plate": [
+    {
+      "battery_alloy_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "battery_alloy_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "block_of_iron": [
+    {
+      "iron_ingot": 9,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "block_of_iron": 1
+      },
+      "_machine": "Compressor"
+    }
+  ],
+  "brass_dust": [
+    {
+      "copper_dust": 3,
+      "zinc_dust": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "brass_dust": 4
+      },
+      "_machine": "Mixer"
+    }
+  ],
+  "brick": [
+    {
+      "unfired_clay_brick": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "brick": 1
+      },
+      "_machine": "Smelting"
+    }
+  ],
+  "brick_dust": [
+    {
+      "small_pile_of_brick_dust": 4,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "brick_dust": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "bricked_blast_furnace": [
+    {
+      "iron_furnace": 4,
+      "firebricks": 4,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bricked_blast_furnace": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "bricked_blast_furnace_corner_multiblock": [
+    {
+      "bricked_blast_furnace": 1,
+      "firebricks": 12,
+      "_type": "multiblock",
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bricked_blast_furnace_corner_multiblock": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "bricked_blast_furnace_multiblock": [
+    {
+      "firebricks": 32,
+      "bricked_blast_furnace": 1,
+      "_type": "multiblock",
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bricked_blast_furnace_multiblock": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "bricked_blast_furnace_side_multiblock": [
+    {
+      "bricked_blast_furnace": 1,
+      "firebricks": 20,
+      "_type": "multiblock",
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bricked_blast_furnace_side_multiblock": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "bricked_bronze_hull": [
+    {
+      "bricks": 3,
+      "bronze_plate": 5,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bricked_bronze_hull": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "bricked_wrought_iron_hull": [
+    {
+      "wrought_iron_plate": 5,
+      "bricks": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bricked_wrought_iron_hull": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "bricks": [
+    {
+      "brick": 8,
+      "water_bucket": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "bricks": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "brick": 4,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bricks": 1
+      },
+      "_machine": "Compressor"
+    }
+  ],
+  "bronze_fluid_pipe": [
+    {
+      "bronze_plate": 6,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bronze_fluid_pipe": 2
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "bronze_frame_box": [
+    {
+      "bronze_rod": 8,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bronze_frame_box": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "bronze_rod": 4,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "bronze_frame_box": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "bronze_hull": [
+    {
+      "bronze_plate": 8,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bronze_hull": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "bronze_ingot": [
+    {
+      "copper_ingot": 3,
+      "tin_ingot": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bronze_ingot": 4
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "bronze_pipe_casing": [
+    {
+      "bronze_plate": 4,
+      "bronze_fluid_pipe": 4,
+      "bronze_frame_box": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bronze_pipe_casing": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "bronze_plate": [
+    {
+      "bronze_ingot": 2,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "bronze_plate": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "bronze_ingot": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bronze_plate": 2
+      },
+      "_machine": "Forge Hammer"
+    },
+    {
+      "bronze_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "bronze_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "bronze_plated_bricks": [
+    {
+      "bronze_plate": 6,
+      "bricks": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bronze_plated_bricks": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "bronze_ring": [
+    {
+      "bronze_rod": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "bronze_ring": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "bronze_rod": [
+    {
+      "bronze_ingot": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bronze_rod": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "bronze_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "bronze_rod": 1,
+        "small_pile_of_bronze_dust": 2
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "bronze_rotor": [
+    {
+      "bronze_plate": 4,
+      "bronze_ring": 1,
+      "bronze_screw": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bronze_rotor": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "bronze_ingot": 5,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "bronze_rotor": 1
+      },
+      "_machine": "Extruder"
+    }
+  ],
+  "bucket_of_concrete": [
+    {
+      "calcite_dust": 2,
+      "clay_dust": 1,
+      "stone_dust": 1,
+      "quartz_sand": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "bucket_of_concrete": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "casting_basin": [
+    {
+      "seared_bricks": 7,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "casting_basin": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "casting_channel": [
+    {
+      "seared_brick": 7,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "casting_channel": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "casting_table": [
+    {
+      "seared_bricks": 4,
+      "seared_stone": 1,
+      "seared_brick": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "casting_table": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "charcoal_dust": [
+    {
+      "charcoal": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "charcoal_dust": 1
+      },
+      "_machine": "Macerator"
+    }
+  ],
+  "chest": [
+    {
+      "wood": 4,
+      "wood_planks": 4,
+      "flint": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "chest": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "wood_planks": 8,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "chest": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "circuit_board": [
+    {
+      "1x_copper_wire": 8,
+      "coated_circuit_board": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "circuit_board": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "wood_plank": 8,
+      "copper_foil": 32,
+      "refined_glue": 576,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "circuit_board": 8
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "clay_dust": [
+    {
+      "hardened_clay": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "clay_dust": 1
+      },
+      "_machine": "Shapeless Crafting"
+    },
+    {
+      "hardened_clay": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "clay_dust": 1
+      },
+      "_machine": "Macerator"
+    }
+  ],
+  "clay_plate": [
+    {
+      "clay_dust": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "clay_plate": 1
+      },
+      "_machine": "Compressor"
+    }
+  ],
+  "clear_glass": [
+    {
+      "glass_dust": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "clear_glass": 1
+      },
+      "_machine": "Casting Basin"
+    },
+    {
+      "glass": 1,
+      "_tags": [
+        "Any",
+        "MV"
+      ],
+      "_outputs": {
+        "clear_glass": 1
+      },
+      "_machine": "Electric Blast Furnace"
+    }
+  ],
+  "clear_glass_pane": [
+    {
+      "glass_dust": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "clear_glass_pane": 4
+      },
+      "_machine": "Casting Table"
+    },
+    {
+      "clear_glass": 3,
+      "lubricant": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "clear_glass_pane": 8
+      },
+      "_machine": "Cutting Machine"
+    }
+  ],
+  "coated_circuit_board": [
+    {
+      "sticky_resin": 2,
+      "wood_plank": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "coated_circuit_board": 1
+      },
+      "_machine": "Shapeless Crafting"
+    }
+  ],
+  "cobalt_brass_dust": [
+    {
+      "brass_dust": 7,
+      "aluminium_dust": 1,
+      "cobalt_dust": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "cobalt_brass_dust": 9
+      },
+      "_machine": "Mixer"
+    }
+  ],
+  "cobalt_brass_gear": [
+    {
+      "molten_cobalt_brass": 576,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "cobalt_brass_gear": 1
+      },
+      "_machine": "Fluid Solidifier"
+    }
+  ],
+  "cobalt_brass_ingot": [
+    {
+      "cobalt_brass_dust": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "cobalt_brass_ingot": 1
+      },
+      "_machine": "Smelting"
+    }
+  ],
+  "cobalt_brass_plate": [
+    {
+      "cobalt_brass_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "cobalt_brass_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "cobalt_brass_rod": [
+    {
+      "cobalt_brass_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "cobalt_brass_rod": 1,
+        "small_pile_of_cobalt_brass_dust": 2
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "coke_oven": [
+    {
+      "coke_oven_brick_railcraft": 26,
+      "_type": "multiblock",
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "coke_oven": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "coke_oven_brick": [
+    {
+      "unfired_coke_oven_brick": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "coke_oven_brick": 1
+      },
+      "_machine": "Smelting"
+    },
+    {
+      "sand": 1,
+      "clay": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "coke_oven_brick": 1
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "coke_oven_brick_railcraft": [
+    {
+      "coke_oven_brick": 4,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "coke_oven_brick_railcraft": 1
+      },
+      "_machine": "Shapeless Crafting"
+    }
+  ],
+  "compressed_fireclay": [
+    {
+      "fireclay_dust": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "compressed_fireclay": 1
+      },
+      "_machine": "Compressor"
+    }
+  ],
+  "conveyor_module_lv": [
+    {
+      "rubber_sheet": 6,
+      "electric_motor_lv": 2,
+      "1x_tin_cable": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "conveyor_module_lv": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "copper_foil": [
+    {
+      "copper_plate": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "copper_foil": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "copper_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "copper_foil": 4
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "copper_plate": [
+    {
+      "copper_ingot": 3,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "copper_plate": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "copper_ingot": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "copper_plate": 2
+      },
+      "_machine": "Forge Hammer"
+    },
+    {
+      "copper_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "copper_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "cupronickel_coil_block": [
+    {
+      "2x_cupronickel_wire": 8,
+      "mica_insulator_foil": 8,
+      "molten_tin": 144,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "cupronickel_coil_block": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "cupronickel_ingot": [
+    {
+      "copper_ingot": 1,
+      "nickel_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "cupronickel_ingot": 2
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "diamond_sawblade": [
+    {
+      "diamond_dust": 1,
+      "cobalt_brass_gear": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "diamond_sawblade": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "double_clay_plate": [
+    {
+      "clay_plate": 2,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "double_clay_plate": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "double_silver_ingot": [
+    {
+      "silver_ingot": 2,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "double_silver_ingot": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "double_silver_plate": [
+    {
+      "silver_plate": 2,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "double_silver_plate": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "electric_blast_furnace": [
+    {
+      "iron_furnace": 3,
+      "electronic_circuit": 3,
+      "1x_tin_cable": 2,
+      "heat_proof_machine_casing": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "electric_blast_furnace": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "electric_blast_furnace_multiblock": [
+    {
+      "electric_blast_furnace": 1,
+      "input_hatch_lv": 1,
+      "input_bus_lv": 1,
+      "output_bus_lv": 1,
+      "maintenance_hatch": 1,
+      "lv_energy_hatch": 2,
+      "heat_proof_machine_casing": 10,
+      "cupronickel_coil_block": 16,
+      "muffler_hatch_lv": 1,
+      "_type": "multiblock",
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "electric_blast_furnace_multiblock": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "electric_motor_lv": [
+    {
+      "1x_copper_wire": 4,
+      "1x_tin_cable": 2,
+      "iron_rod": 2,
+      "magnetic_iron_rod": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "electric_motor_lv": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "electric_piston_lv": [
+    {
+      "steel_plate": 3,
+      "steel_rod": 2,
+      "1x_tin_cable": 2,
+      "electric_motor_lv": 1,
+      "small_steel_gear": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "electric_piston_lv": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "electric_pump_lv": [
+    {
+      "tin_screw": 1,
+      "tin_rotor": 1,
+      "rubber_ring": 2,
+      "electric_motor_lv": 1,
+      "1x_tin_cable": 1,
+      "bronze_fluid_pipe": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "electric_pump_lv": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "electronic_circuit": [
+    {
+      "resistor": 2,
+      "steel_casing": 1,
+      "vacuum_tube": 2,
+      "circuit_board": 1,
+      "1x_red_alloy_cable": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "electronic_circuit": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "resistor": 2,
+      "vacuum_tube": 2,
+      "circuit_board": 1,
+      "1x_red_alloy_wire": 2,
+      "molten_tin": 144,
+      "_tags": [
+        "Any",
+        "MV"
+      ],
+      "_outputs": {
+        "electronic_circuit": 1
+      },
+      "_machine": "Circuit Assembler"
+    }
+  ],
+  "fine_copper_wire": [
+    {
+      "copper_foil": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "fine_copper_wire": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "copper_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "fine_copper_wire": 8
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "fine_steel_wire": [
+    {
+      "steel_foil": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "fine_steel_wire": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "steel_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "fine_steel_wire": 8
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "firebrick": [
+    {
+      "compressed_fireclay": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "firebrick": 1
+      },
+      "_machine": "Smelting"
+    }
+  ],
+  "firebricks": [
+    {
+      "firebrick": 6,
+      "gypsum_dust": 2,
+      "bucket_of_concrete": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "firebricks": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "fireclay_dust": [
+    {
+      "clay_dust": 1,
+      "brick_dust": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "fireclay_dust": 2
+      },
+      "_machine": "Shapeless Crafting"
+    }
+  ],
+  "flint_dust": [
+    {
+      "tiny_pile_of_flint_dust": 9,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "flint_dust": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "flint": 2,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "flint_dust": 1
+      },
+      "_machine": "Macerator"
+    }
+  ],
+  "furnace": [
+    {
+      "cobblestone": 6,
+      "flint": 3,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "furnace": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "cobblestone": 8,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "furnace": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "glass": [
+    {
+      "clear_glass": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "glass": 1
+      },
+      "_machine": "Chisel"
+    },
+    {
+      "glass_dust": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "glass": 1
+      },
+      "_machine": "Alloy Smelter"
+    },
+    {
+      "sand": 1,
+      "oxygen_gas": 20,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "glass": 2
+      },
+      "_machine": "Arc Furnace"
+    }
+  ],
+  "glass_dust": [
+    {
+      "quartz_sand": 1,
+      "tiny_pile_of_flint_dust": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "glass_dust": 1
+      },
+      "_machine": "Shapeless Crafting"
+    },
+    {
+      "quartz_sand": 16,
+      "flint_dust": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "glass_dust": 16
+      },
+      "_machine": "Mixer"
+    }
+  ],
+  "glass_tube": [
+    {
+      "glass_dust": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "glass_tube": 1
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "good_electronic_circuit": [
+    {
+      "1x_copper_wire": 2,
+      "steel_casing": 1,
+      "electronic_circuit": 3,
+      "good_circuit_board": 1,
+      "diode": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "good_electronic_circuit": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "1x_copper_wire": 2,
+      "electronic_circuit": 2,
+      "good_circuit_board": 1,
+      "diode": 2,
+      "molten_tin": 144,
+      "_tags": [
+        "Any",
+        "MV"
+      ],
+      "_outputs": {
+        "good_electronic_circuit": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "grout": [
+    {
+      "sand": 3,
+      "gravel": 3,
+      "clay_dust": 2,
+      "water_bucket": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "grout": 4
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "sand": 3,
+      "gravel": 3,
+      "clay": 2,
+      "water_bucket": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "grout": 8
+      },
+      "_machine": "Mixer"
+    }
+  ],
+  "heat_proof_machine_casing": [
+    {
+      "invar_plate": 6,
+      "invar_frame_box": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "heat_proof_machine_casing": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "high_pressure_alloy_smelter": [
+    {
+      "wrought_iron_plate": 6,
+      "steel_plate": 1,
+      "small_wrought_iron_fluid_pipe": 1,
+      "steam_alloy_smelter": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "high_pressure_alloy_smelter": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "high_pressure_boiler_tank": [
+    {
+      "steel_casing": 6,
+      "steel_screw": 2,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "high_pressure_boiler_tank": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "steel_casing": 6,
+      "_tags": [
+        "Any",
+        "MV"
+      ],
+      "_outputs": {
+        "high_pressure_boiler_tank": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "high_pressure_steam_compressor": [
+    {
+      "small_wrought_iron_fluid_pipe": 5,
+      "wrought_iron_plate": 2,
+      "steel_plate": 1,
+      "steam_compressor": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "high_pressure_steam_compressor": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "high_pressure_steam_extractor": [
+    {
+      "small_wrought_iron_fluid_pipe": 5,
+      "wrought_iron_plate": 2,
+      "steel_plate": 1,
+      "steam_extractor": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "high_pressure_steam_extractor": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "high_pressure_steam_forge_hammer": [
+    {
+      "wrought_iron_plate": 5,
+      "steel_plate": 1,
+      "small_wrought_iron_fluid_pipe": 2,
+      "steam_forge_hammer": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "high_pressure_steam_forge_hammer": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "high_pressure_steam_furnace": [
+    {
+      "small_wrought_iron_fluid_pipe": 5,
+      "wrought_iron_plate": 2,
+      "steel_plate": 1,
+      "steam_furnace": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "high_pressure_steam_furnace": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "high_pressure_steam_macerator": [
+    {
+      "wrought_iron_plate": 5,
+      "steel_plate": 1,
+      "small_wrought_iron_fluid_pipe": 2,
+      "steam_macerator": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "high_pressure_steam_macerator": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "hopper": [
+    {
+      "iron_plate": 5,
+      "iron_gear": 1,
+      "chest": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "hopper": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "iron_plate": 5,
+      "chest": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "hopper": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "huge_clay_fluid_pipe": [
+    {
+      "double_clay_plate": 6,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "huge_clay_fluid_pipe": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "input_bus_lv": [
+    {
+      "refined_glue": 720,
+      "chest": 1,
+      "lv_machine_hull": 1,
+      "_liquids": [
+        "refined_glue"
+      ],
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "input_bus_lv": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "input_bus_steam": [
+    {
+      "bronze_plate": 4,
+      "tumbaga_plate": 2,
+      "tin_plate": 2,
+      "hopper": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "input_bus_steam": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "input_hatch_lv": [
+    {
+      "lv_machine_hull": 1,
+      "tank": 1,
+      "refined_glue": 720,
+      "_liquids": [
+        "refined_glue"
+      ],
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "input_hatch_lv": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "invar_frame_box": [
+    {
+      "invar_rod": 4,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "invar_frame_box": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "invar_ingot": [
+    {
+      "iron_ingot": 2,
+      "nickel_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "invar_ingot": 3
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "invar_plate": [
+    {
+      "invar_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "invar_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "invar_rod": [
+    {
+      "invar_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "invar_rod": 1,
+        "small_pile_of_invar_dust": 2
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "iron_bars": [
+    {
+      "iron_rod": 6,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_bars": 3
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "iron_rod": 3,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "iron_bars": 4
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "iron_bolt": [
+    {
+      "iron_rod": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_bolt": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "iron_rod": 1,
+      "lubricant": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "iron_bolt": 4
+      },
+      "_machine": "Cutting Machine"
+    }
+  ],
+  "iron_furnace": [
+    {
+      "iron_plate": 7,
+      "furnace": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_furnace": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "iron_plate": 5,
+      "furnace": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_furnace": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "iron_gear": [
+    {
+      "iron_rod": 4,
+      "iron_plate": 4,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_gear": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "iron_ingot": 8,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "iron_gear": 1
+      },
+      "_machine": "Alloy Smelter"
+    },
+    {
+      "molten_iron": 576,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "iron_gear": 1
+      },
+      "_machine": "Fluid Solidifier"
+    }
+  ],
+  "iron_nugget": [
+    {
+      "iron_ingot": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_nugget": 9
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "iron_plate": [
+    {
+      "iron_ingot": 2,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_plate": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "iron_ingot": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "iron_plate": 2
+      },
+      "_machine": "Forge Hammer"
+    },
+    {
+      "iron_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "iron_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "iron_ring": [
+    {
+      "iron_rod": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_ring": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "iron_rod": [
+    {
+      "iron_ingot": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_rod": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "iron_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "iron_rod": 1,
+        "small_pile_of_iron_dust": 2
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "iron_screw": [
+    {
+      "iron_bolt": 2,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_screw": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "iron_bolt": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "iron_screw": 1
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "iron_tank_gauge": [
+    {
+      "clear_glass_pane": 2,
+      "iron_screw": 4,
+      "iron_plate": 2,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_tank_gauge": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "glass_pane": 2,
+      "iron_plate": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "iron_tank_gauge": 2
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "iron_tank_railcraft_5x5": [
+    {
+      "iron_tank_wall": 87,
+      "iron_tank_valve": 2,
+      "iron_tank_gauge": 9,
+      "_type": "multiblock",
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "iron_tank_railcraft_5x5": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "iron_tank_valve": [
+    {
+      "iron_screw": 4,
+      "large_bronze_fluid_pipe": 2,
+      "iron_bars": 2,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "iron_tank_valve": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "large_bronze_fluid_pipe": 2,
+      "iron_bars": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "iron_tank_valve": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "iron_tank_wall": [
+    {
+      "iron_plate": 4,
+      "iron_screw": 4,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "iron_tank_wall": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "iron_plate": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "iron_tank_wall": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "large_bronze_fluid_pipe": [
+    {
+      "bronze_plate": 6,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "large_bronze_fluid_pipe": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "large_clay_fluid_pipe": [
+    {
+      "clay_plate": 6,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "large_clay_fluid_pipe": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "large_coal_boiler": [
+    {
+      "steel_plate": 5,
+      "bricks": 2,
+      "iron_furnace": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "large_coal_boiler": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "large_steel_fluid_pipe": [
+    {
+      "steel_plate": 6,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "large_steel_fluid_pipe": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "large_wooden_fluid_pipe": [
+    {
+      "wood_planks": 6,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "large_wooden_fluid_pipe": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "wood_plank": 6,
+      "refined_glue": 10,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "large_wooden_fluid_pipe": 2
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "low_voltage_coil": [
+    {
+      "magnetic_iron_rod": 1,
+      "fine_steel_wire": 16,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "low_voltage_coil": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "low_voltage_fluid_tank": [
+    {
+      "steel_plate": 2,
+      "iron_plate": 1,
+      "bronze_plate": 4,
+      "electric_pump_lv": 1,
+      "huge_clay_fluid_pipe": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "low_voltage_fluid_tank": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "lubricant": [
+    {
+      "redstone": 1,
+      "oil": 750,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "lubricant": 750
+      },
+      "_machine": "Brewery"
+    }
+  ],
+  "lv_energy_hatch": [
+    {
+      "1x_tin_cable": 2,
+      "electric_pump_lv": 1,
+      "lv_machine_hull": 1,
+      "low_voltage_coil": 2,
+      "electronic_circuit": 1,
+      "lubricant": 2000,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "lv_energy_hatch": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "lv_machine_casing": [
+    {
+      "steel_plate": 8,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "lv_machine_casing": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "lv_machine_hull": [
+    {
+      "wrought_iron_plate": 2,
+      "steel_plate": 1,
+      "1x_tin_cable": 2,
+      "lv_machine_casing": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "lv_machine_hull": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "1x_tin_cable": 2,
+      "lv_machine_casing": 1,
+      "molten_polyethylene": 288,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "lv_machine_hull": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "magnetic_iron_rod": [
+    {
+      "iron_rod": 1,
+      "redstone": 4,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "magnetic_iron_rod": 1
+      },
+      "_machine": "Shapeless Crafting"
+    },
+    {
+      "iron_rod": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "magnetic_iron_rod": 1
+      },
+      "_machine": "Electromagnetic Polarizer"
+    }
+  ],
+  "maintenance_hatch": [
+    {
+      "lv_machine_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "maintenance_hatch": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "mica_based_pulp": [
+    {
+      "mica_dust": 3,
+      "raw_rubber_dust": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "mica_based_pulp": 4
+      },
+      "_machine": "Mixer"
+    }
+  ],
+  "mica_based_sheet": [
+    {
+      "mica_based_pulp": 4,
+      "asbestos_dust": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "mica_based_sheet": 4
+      },
+      "_machine": "Forming Press"
+    }
+  ],
+  "mica_insulator_foil": [
+    {
+      "mica_insulator_sheet": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "mica_insulator_foil": 4
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "mica_insulator_sheet": [
+    {
+      "mica_based_sheet": 4,
+      "nether_quartz_dust": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "mica_insulator_sheet": 4
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "mining_pipe": [
+    {
+      "large_steel_fluid_pipe": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "mining_pipe": 8
+      },
+      "_machine": "Wiremill"
+    }
+  ],
+  "mixed_metal_ingot": [
+    {
+      "iron_plate": 1,
+      "bronze_plate": 1,
+      "tin_plate": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "mixed_metal_ingot": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "molten_tin": [
+    {
+      "tin_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "molten_tin": 144
+      },
+      "_machine": "Fluid Extractor"
+    }
+  ],
+  "muffler_hatch_lv": [
+    {
+      "electric_motor_lv": 1,
+      "lv_machine_hull": 1,
+      "bronze_fluid_pipe": 1,
+      "bronze_rotor": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "muffler_hatch_lv": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "obsidian_dust": [
+    {
+      "obsidian": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "obsidian_dust": 9
+      },
+      "_machine": "Macerator"
+    }
+  ],
+  "obsidian_glass": [
+    {
+      "thickened_glass": 1,
+      "obsidian_dust": 4,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "obsidian_glass": 1
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "output_bus_lv": [
+    {
+      "lv_machine_hull": 1,
+      "chest": 1,
+      "refined_glue": 720,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "output_bus_lv": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "output_bus_steam": [
+    {
+      "bronze_plate": 4,
+      "tumbaga_plate": 2,
+      "tin_plate": 2,
+      "hopper": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "output_bus_steam": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "oxygen_gas": [
+    {
+      "water": 500,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "oxygen_gas": 500,
+        "hydrogen_gas": 1000
+      },
+      "_machine": "Electrolyzer"
+    }
+  ],
+  "piston": [
+    {
+      "coin_the_technician_1": 20,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "piston": 2
+      },
+      "_machine": "Quest Book"
+    }
+  ],
+  "quartz_sand": [
+    {
+      "sand": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "quartz_sand": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "sand": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "quartz_sand": 1
+      },
+      "_machine": "Macerator"
+    }
+  ],
+  "raw_aluminum": [
+    {
+      "aluminum_gravel_ore": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "raw_aluminum": 1
+      },
+      "_machine": "Casting Table"
+    }
+  ],
+  "raw_rubber_dust": [
+    {
+      "rubber_wood": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "raw_rubber_dust": 1
+      },
+      "_machine": "Extractor"
+    },
+    {
+      "sticky_resin": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "raw_rubber_dust": 3,
+        "refined_glue": 100
+      },
+      "_machine": "Centrifuge"
+    }
+  ],
+  "red_alloy_bolt": [
+    {
+      "red_alloy_rod": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "red_alloy_bolt": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "red_alloy_rod": 1,
+      "lubricant": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "red_alloy_bolt": 4
+      },
+      "_machine": "Cutting Machine"
+    }
+  ],
+  "red_alloy_ingot": [
+    {
+      "copper_ingot": 1,
+      "redstone": 4,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "red_alloy_ingot": 1
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "red_alloy_plate": [
+    {
+      "red_alloy_ingot": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "red_alloy_plate": 2
+      },
+      "_machine": "Forge Hammer"
+    },
+    {
+      "red_alloy_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "red_alloy_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "red_alloy_rod": [
+    {
+      "red_alloy_ingot": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "red_alloy_rod": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "red_alloy_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "red_alloy_rod": 1,
+        "small_pile_of_red_alloy_dust": 2
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "refined_glue": [
+    {
+      "sticky_resin": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "refined_glue": 100,
+        "raw_rubber_dust": 3
+      },
+      "_machine": "Centrifuge"
+    }
+  ],
+  "reinforced_glass": [
+    {
+      "advanced_alloy": 1,
+      "glass_dust": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "reinforced_glass": 4
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "reinforced_lava_boiler": [
+    {
+      "steel_plate": 7,
+      "steel_hull": 1,
+      "tank": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "reinforced_lava_boiler": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "resistor": [
+    {
+      "sticky_resin": 2,
+      "fine_copper_wire": 2,
+      "1x_copper_wire": 2,
+      "charcoal_dust": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "resistor": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "fine_annealed_copper_wire": 4,
+      "1x_annealed_copper_wire": 4,
+      "charcoal_dust": 1,
+      "refined_glue": 288,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "resistor": 8
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "robot_arm_lv": [
+    {
+      "1x_tin_cable": 3,
+      "electric_motor_lv": 2,
+      "steel_rod": 2,
+      "electronic_circuit": 1,
+      "electric_piston_lv": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "robot_arm_lv": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "rubber_bar": [
+    {
+      "raw_rubber_dust": 3,
+      "sulfur_dust": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "rubber_bar": 1
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "rubber_ring": [
+    {
+      "rubber_sheet": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "rubber_ring": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "rubber_bar": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "rubber_ring": 4
+      },
+      "_machine": "Extruder"
+    }
+  ],
+  "rubber_sheet": [
+    {
+      "rubber_bar": 1,
+      "_tags": [
+        "Any",
+        "Steam",
+        "LV"
+      ],
+      "_outputs": {
+        "rubber_sheet": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "seared_brick": [
+    {
+      "unfired_seared_brick": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "seared_brick": 1
+      },
+      "_machine": "Smelting"
+    },
+    {
+      "grout": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "seared_brick": 1
+      },
+      "_machine": "Alloy Smelter"
+    }
+  ],
+  "seared_bricks": [
+    {
+      "seared_brick": 8,
+      "water_bucket": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "seared_bricks": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "seared_brick": 4,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "seared_bricks": 1
+      },
+      "_machine": "Compressor"
+    }
+  ],
+  "seared_faucet": [
+    {
+      "seared_brick": 5,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "seared_faucet": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "seared_stone": [
+    {
+      "cobblestone": 20,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "seared_stone": 1
+      },
+      "_machine": "Casting Basin"
+    }
+  ],
+  "seared_tank": [
+    {
+      "seared_bricks": 4,
+      "seared_brick": 4,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "seared_tank": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "silver_plate": [
+    {
+      "silver_ingot": 2,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "silver_plate": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "silver_ingot": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "silver_plate": 2
+      },
+      "_machine": "Forge Hammer"
+    },
+    {
+      "silver_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "silver_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "simple_solar_boiler": [
+    {
+      "glass": 3,
+      "small_bronze_fluid_pipe": 2,
+      "bricked_bronze_hull": 1,
+      "double_silver_plate": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "simple_solar_boiler": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "small_battery_hull": [
+    {
+      "1x_tin_cable": 1,
+      "battery_alloy_plate": 2,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "small_battery_hull": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "1x_tin_cable": 1,
+      "battery_alloy_plate": 1,
+      "molten_polyethylene": 144,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "small_battery_hull": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "small_bronze_fluid_pipe": [
+    {
+      "bronze_plate": 6,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "small_bronze_fluid_pipe": 6
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "small_lithium_battery": [
+    {
+      "lithium_dust": 2,
+      "small_battery_hull": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "small_lithium_battery": 1
+      },
+      "_machine": "Canner"
+    }
+  ],
+  "small_pile_of_brick_dust": [
+    {
+      "brick": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "small_pile_of_brick_dust": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "brick": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "small_pile_of_brick_dust": 1
+      },
+      "_machine": "Forge Hammer"
+    }
+  ],
+  "small_pile_of_diamond_dust": [
+    {
+      "diamond_dust": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "small_pile_of_diamond_dust": 4
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "small_steel_fluid_pipe": [
+    {
+      "steel_plate": 6,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "small_steel_fluid_pipe": 6
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "small_steel_gear": [
+    {
+      "steel_rod": 2,
+      "steel_plate": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "small_steel_gear": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "molten_steel": 144,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "small_steel_gear": 1
+      },
+      "_machine": "Fluid Solidifier"
+    }
+  ],
+  "small_wrought_iron_fluid_pipe": [
+    {
+      "wrought_iron_plate": 6,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "small_wrought_iron_fluid_pipe": 6
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "smeltery": [
+    {
+      "seared_bricks": 41,
+      "smeltery_drain": 2,
+      "smeltery_controller": 1,
+      "seared_tank": 1,
+      "seared_faucet": 2,
+      "casting_basin": 1,
+      "casting_table": 1,
+      "_type": "multiblock",
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "smeltery": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "smeltery_controller": [
+    {
+      "seared_bricks": 4,
+      "seared_brick": 4,
+      "furnace": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "smeltery_controller": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "smeltery_drain": [
+    {
+      "seared_brick": 8,
+      "casting_channel": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "smeltery_drain": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_alloy_smelter": [
+    {
+      "furnace": 2,
+      "small_bronze_fluid_pipe": 6,
+      "bricked_bronze_hull": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_alloy_smelter": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_coal_boiler": [
+    {
+      "bronze_plate": 5,
+      "bricks": 2,
+      "iron_furnace": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_coal_boiler": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_compressor": [
+    {
+      "small_bronze_fluid_pipe": 6,
+      "piston": 2,
+      "bronze_hull": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_compressor": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_extractor": [
+    {
+      "small_bronze_fluid_pipe": 6,
+      "piston": 1,
+      "bronze_hull": 1,
+      "glass": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_extractor": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_forge_hammer": [
+    {
+      "small_bronze_fluid_pipe": 6,
+      "anvil": 1,
+      "piston": 1,
+      "bronze_hull": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_forge_hammer": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_furnace": [
+    {
+      "small_bronze_fluid_pipe": 7,
+      "furnace": 1,
+      "bricked_bronze_hull": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_furnace": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_grinder": [
+    {
+      "bronze_plated_bricks": 4,
+      "piston": 2,
+      "diamond": 2,
+      "tumbaga_frame_box": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_grinder": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_grinder_multiblock": [
+    {
+      "bronze_plated_bricks": 22,
+      "input_bus_steam": 1,
+      "output_bus_steam": 1,
+      "steam_hatch": 1,
+      "steam_grinder": 1,
+      "_type": "multiblock",
+      "_tags": [
+        "Any",
+        "LV",
+        "MV",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_grinder_multiblock": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "steam_hatch": [
+    {
+      "bronze_plate": 6,
+      "bronze_fluid_pipe": 2,
+      "ultra_low_voltage_fluid_tank": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_hatch": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_macerator": [
+    {
+      "diamond": 2,
+      "small_bronze_fluid_pipe": 4,
+      "piston": 2,
+      "bronze_hull": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_macerator": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_oven": [
+    {
+      "high_pressure_boiler_tank": 4,
+      "steel_firebox_casing": 4,
+      "high_pressure_steam_furnace": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_oven": 4
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_oven_railcraft": [
+    {
+      "steam_oven": 8,
+      "_type": "multiblock",
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_oven_railcraft": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "steam_presser": [
+    {
+      "bronze_plated_bricks": 4,
+      "tumbaga_frame_box": 4,
+      "wrought_iron_plate": 3,
+      "anvil": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_presser": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steam_presser_multiblock": [
+    {
+      "bronze_plated_bricks": 39,
+      "bronze_pipe_casing": 2,
+      "block_of_iron": 2,
+      "input_bus_steam": 1,
+      "output_bus_steam": 1,
+      "steam_hatch": 1,
+      "steam_presser": 1,
+      "_type": "multiblock",
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steam_presser_multiblock": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "steel_bolt": [
+    {
+      "steel_rod": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_bolt": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "steel_rod": 1,
+      "lubricant": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "steel_bolt": 4
+      },
+      "_machine": "Cutting Machine"
+    }
+  ],
+  "steel_casing": [
+    {
+      "steel_ingot": 2,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_casing": 3
+      },
+      "_machine": "Alloy Smelter"
+    },
+    {
+      "steel_plate": 1,
+      "lubricant": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "steel_casing": 2
+      },
+      "_machine": "Cutting Machine"
+    }
+  ],
+  "steel_dust": [
+    {
+      "steel_ingot": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_dust": 1
+      },
+      "_machine": "Macerator"
+    }
+  ],
+  "steel_firebox_casing": [
+    {
+      "steel_rod": 4,
+      "steel_plate": 4,
+      "steel_frame_box": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_firebox_casing": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steel_frame_box": [
+    {
+      "steel_rod": 8,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_frame_box": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "steel_rod": 4,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "steel_frame_box": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "steel_gear": [
+    {
+      "steel_rod": 4,
+      "steel_plate": 4,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_gear": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "molten_steel": 576,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "steel_gear": 1
+      },
+      "_machine": "Fluid Solidifier"
+    }
+  ],
+  "steel_hull": [
+    {
+      "steel_plate": 8,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_hull": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steel_ingot": [
+    {
+      "iron_ingot": 10,
+      "block_of_coal": 4,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_ingot": 10,
+        "dark_ashes": 4
+      },
+      "_machine": "Bricked Blast Furnace"
+    },
+    {
+      "wrought_iron_dust": 1,
+      "oxygen_gas": 1000,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "steel_ingot": 1
+      },
+      "_machine": "Electric Blast Furnace"
+    }
+  ],
+  "steel_plate": [
+    {
+      "steel_ingot": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_plate": 2
+      },
+      "_machine": "Forge Hammer"
+    },
+    {
+      "steel_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "steel_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "steel_rod": [
+    {
+      "steel_ingot": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_rod": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "steel_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "steel_rod": 1,
+        "small_pile_of_steel_dust": 2
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "steel_screw": [
+    {
+      "steel_bolt": 2,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "steel_screw": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "steel_bolt": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "steel_screw": 1
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "stick": [
+    {
+      "wood_planks": 2,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "stick": 4
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "wood_planks": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "stick": 2
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "sulfur_dust": [
+    {
+      "realgar_dust": 2,
+      "_outputs": {
+        "sulfur_dust": 1,
+        "arsenic_dust": 1
+      },
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_machine": "Centrifuge"
+    }
+  ],
+  "tank": [
+    {
+      "iron_screw": 4,
+      "iron_ring": 2,
+      "obsidian_glass": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "tank": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "iron_ring": 2,
+      "obsidian_glass": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "tank": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "thickened_glass": [
+    {
+      "clear_glass": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "thickened_glass": 1
+      },
+      "_machine": "Shapeless Crafting"
+    }
+  ],
+  "tin_bolt": [
+    {
+      "tin_rod": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "tin_bolt": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "tin_rod": 1,
+      "lubricant": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "tin_bolt": 4
+      },
+      "_machine": "Cutting Machine"
+    }
+  ],
+  "tin_plate": [
+    {
+      "tin_ingot": 2,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "tin_plate": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "tin_ingot": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "tin_plate": 2
+      },
+      "_machine": "Forge Hammer"
+    },
+    {
+      "tin_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "tin_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "tin_ring": [
+    {
+      "tin_rod": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "tin_ring": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "tin_rod": [
+    {
+      "tin_ingot": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "tin_rod": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "tin_ingot": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "tin_rod": 1,
+        "small_pile_of_tin_dust": 2
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "tin_rotor": [
+    {
+      "tin_plate": 4,
+      "tin_screw": 1,
+      "tin_ring": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "tin_rotor": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "tin_ingot": 5,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "tin_rotor": 1
+      },
+      "_machine": "Extruder"
+    }
+  ],
+  "tin_screw": [
+    {
+      "tin_bolt": 2,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "tin_screw": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "tin_bolt": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "tin_screw": 1
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "tiny_pile_of_flint_dust": [
+    {
+      "flint_dust": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "tiny_pile_of_flint_dust": 9
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "triple_silver_ingot": [
+    {
+      "double_silver_ingot": 1,
+      "silver_ingot": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "triple_silver_ingot": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "triple_silver_plate": [
+    {
+      "double_silver_plate": 1,
+      "silver_plate": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "triple_silver_plate": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "tumbaga_dust": [
+    {
+      "tumbaga_mix_dust": 3,
+      "gold_dust": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "tumbaga_dust": 10
+      },
+      "_machine": "Shapeless Crafting"
+    },
+    {
+      "copper_dust": 3,
+      "gold_dust": 7,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "tumbaga_dust": 10
+      },
+      "_machine": "Mixer"
+    }
+  ],
+  "tumbaga_frame_box": [
+    {
+      "tumbaga_rod": 8,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "tumbaga_frame_box": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "tumbaga_rod": 4,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "tumbaga_frame_box": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "tumbaga_ingot": [
+    {
+      "tumbaga_dust": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "tumbaga_ingot": 1
+      },
+      "_machine": "Smelting"
+    }
+  ],
+  "tumbaga_mix_dust": [
+    {
+      "gold_dust": 2,
+      "copper_dust": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "tumbaga_mix_dust": 1
+      },
+      "_machine": "Shapeless Crafting"
+    }
+  ],
+  "tumbaga_plate": [
+    {
+      "tumbaga_ingot": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "tumbaga_plate": 2
+      },
+      "_machine": "Forge Hammer"
+    },
+    {
+      "tumbaga_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "tumbaga_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ],
+  "tumbaga_rod": [
+    {
+      "tumbaga_ingot": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "tumbaga_rod": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "tumbaga_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "tumbaga_rod": 1,
+        "small_pile_of_tumbaga_dust": 2
+      },
+      "_machine": "Lathe"
+    }
+  ],
+  "ultra_low_voltage_fluid_tank": [
+    {
+      "iron_plate": 4,
+      "tin_plate": 2,
+      "steel_plate": 1,
+      "large_clay_fluid_pipe": 1,
+      "water_bucket": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "ultra_low_voltage_fluid_tank": 1
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "unfired_clay_brick": [
+    {
+      "clay": 8,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "unfired_clay_brick": 8
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "unfired_coke_oven_brick": [
+    {
+      "sand": 5,
+      "clay": 3,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "unfired_coke_oven_brick": 3
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "unfired_seared_brick": [
+    {
+      "grout": 8,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "unfired_seared_brick": 8
+      },
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "vacuum_tube": [
+    {
+      "1x_copper_wire": 3,
+      "fine_copper_wire": 2,
+      "glass_tube": 1,
+      "steel_rod": 2,
+      "red_alloy_bolt": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "vacuum_tube": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "1x_annealed_copper_wire": 4,
+      "glass_tube": 4,
+      "steel_rod": 4,
+      "molten_redstone_alloy": 72,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "vacuum_tube": 16
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "vanadium_dust": [
+    {
+      "vanadium_magnetite_dust": 2,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "vanadium_dust": 1,
+        "magnetite_dust": 1
+      },
+      "_machine": "Centrifuge"
+    }
+  ],
+  "vanadiumsteel_dust": [
+    {
+      "steel_dust": 7,
+      "vanadium_dust": 1,
+      "chrome_dust": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "vanadiumsteel_dust": 9
+      },
+      "_machine": "Mixer"
+    }
+  ],
+  "vanadiumsteel_ingot": [
+    {
+      "vanadiumsteel_dust": 1,
+      "oxygen_gas": 1000,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "vanadiumsteel_ingot": 1
+      },
+      "_machine": "Electric Blast Furnace"
+    }
+  ],
+  "water_tank_railcraft": [
+    {
+      "water_tank_siding": 26,
+      "_type": "multiblock",
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "water_tank_railcraft": 1
+      },
+      "_machine": "Multiblock"
+    }
+  ],
+  "water_tank_siding": [
+    {
+      "wood_planks": 5,
+      "iron_rod": 2,
+      "sticky_resin": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "water_tank_siding": 1
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "steel_bolt": 4,
+      "wood_frame_box": 4,
+      "refined_glue": 72,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "water_tank_siding": 3
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "wood_frame_box": [
+    {
+      "stick": 8,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "wood_frame_box": 2
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "stick": 4,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "wood_frame_box": 1
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "wood_plank": [
+    {
+      "wood_pulp": 8,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "wood_plank": 1
+      },
+      "_machine": "Compressor"
+    },
+    {
+      "wood_pulp": 64,
+      "refined_glue": 144,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "wood_plank": 64
+      },
+      "_machine": "Assembler"
+    }
+  ],
+  "wood_planks": [
+    {
+      "wood": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "wood_planks": 4
+      },
+      "_machine": "Shaped Crafting"
+    },
+    {
+      "wood": 1,
+      "lubricant": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "wood_planks": 6,
+        "wood_pulp": 1
+      },
+      "_machine": "Cutting Machine"
+    }
+  ],
+  "wood_pulp": [
+    {
+      "wood": 1,
+      "_tags": [
+        "Any"
+      ],
+      "_outputs": {
+        "wood_pulp": 2
+      },
+      "_machine": "Shapeless Crafting"
+    },
+    {
+      "wood": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "wood_pulp": 6
+      },
+      "_machine": "Macerator"
+    }
+  ],
+  "wrought_iron_ingot": [
+    {
+      "wrought_iron_nugget": 9,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "wrought_iron_ingot": 1
+      },
+      "_machine": "Compressor"
+    },
+    {
+      "iron_nugget": 1,
+      "oxygen_gas": 56,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "wrought_iron_ingot": 1
+      },
+      "_machine": "Arc Furnace"
+    }
+  ],
+  "wrought_iron_nugget": [
+    {
+      "iron_nugget": 1,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "wrought_iron_nugget": 1
+      },
+      "_machine": "Smelting"
+    }
+  ],
+  "wrought_iron_plate": [
+    {
+      "wrought_iron_ingot": 3,
+      "_tags": [
+        "Any",
+        "Steam"
+      ],
+      "_outputs": {
+        "wrought_iron_plate": 2
+      },
+      "_machine": "Forge Hammer"
+    },
+    {
+      "wrought_iron_ingot": 1,
+      "_tags": [
+        "Any",
+        "LV"
+      ],
+      "_outputs": {
+        "wrought_iron_plate": 1
+      },
+      "_machine": "Bending Machine"
+    }
+  ]
 }
