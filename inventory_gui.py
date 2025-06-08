@@ -15,6 +15,7 @@ Author: ActualPug on github: https://github.com/ActualPug
 # 'logic' module provides recipe classification logic shared with main GUI
 import json
 import os
+import sys
 import tkinter as tk
 import ttkbootstrap as tb
 from tkinter import messagebox, ttk
@@ -113,8 +114,14 @@ def open_inventory_editor(root):
     # === Recipe loading and categorization ===
 
     # Load all recipes and split them into multiblock and singleblock categories.
-    with open(os.path.join(os.path.dirname(__file__), "recipes.json"), "r") as rf:
+    if hasattr(sys, "_MEIPASS"):
+        base_dir = sys._MEIPASS  # When running from a PyInstaller .exe
+    else:
+        base_dir = os.path.dirname(__file__)
+
+    with open(os.path.join(base_dir, "recipes.json"), "r") as rf:
         recipes = json.load(rf)
+
     multiblocks, singleblocks = split_recipe_types(recipes)
 
     # === Tag Variables and Filter Setup ===
