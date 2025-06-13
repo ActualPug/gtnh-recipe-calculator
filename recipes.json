@@ -5,7 +5,6 @@
       "lv_machine_hull": 1,
       "chest": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -19,7 +18,6 @@
       "16x_tin_wire": 1,
       "rubber_sheet": 5,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -32,39 +30,36 @@
     {
       "tin_ingot": 8,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "16x_tin_wire": 1
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "1x_copper_wire": [
     {
       "copper_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "1x_copper_wire": 2
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "1x_gold_wire": [
     {
       "gold_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "1x_gold_wire": 2
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "1x_red_alloy_cable": [
@@ -72,7 +67,6 @@
       "1x_red_alloy_wire": 1,
       "rubber_sheet": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -85,13 +79,12 @@
     {
       "red_alloy_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "1x_red_alloy_wire": 2
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "1x_tin_cable": [
@@ -99,7 +92,6 @@
       "1x_tin_wire": 1,
       "rubber_sheet": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -112,39 +104,36 @@
     {
       "tin_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "1x_tin_wire": 2
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "2x_cupronickel_wire": [
     {
       "cupronickel_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "2x_cupronickel_wire": 1
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "4x_copper_wire": [
     {
       "copper_ingot": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "4x_copper_wire": 1
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "4x_tin_cable": [
@@ -152,7 +141,6 @@
       "4x_tin_wire": 1,
       "rubber_sheet": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -165,37 +153,34 @@
     {
       "tin_ingot": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "4x_tin_wire": 1
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "advanced_alloy": [
     {
       "mixed_metal_ingot": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "advanced_alloy": 1
       },
-      "_machine": "Compressor"
+      "_machine": "Steam Compressor"
     },
     {
       "mixed_metal_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "advanced_alloy": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "advanced_solar_boiler": [
@@ -205,7 +190,6 @@
       "triple_silver_plate": 3,
       "reinforced_glass": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -220,7 +204,6 @@
       "iron_screw": 2,
       "iron_plate": 2,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -236,7 +219,6 @@
       "electronic_circuit": 2,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -253,7 +235,6 @@
       "lv_machine_hull": 1,
       "steel_plate": 3,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -270,7 +251,6 @@
       "electronic_circuit": 2,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -287,7 +267,6 @@
       "electric_motor_lv": 2,
       "1x_tin_cable": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -305,7 +284,6 @@
       "electronic_circuit": 2,
       "brewing_stand": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -322,7 +300,6 @@
       "electric_pump_lv": 1,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -338,7 +315,6 @@
       "1x_tin_cable": 2,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -356,7 +332,6 @@
       "lv_machine_hull": 1,
       "1x_tin_cable": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -374,7 +349,6 @@
       "steel_gear": 2,
       "1x_tin_cable": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -393,7 +367,6 @@
       "diamond_sawblade": 1,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -410,7 +383,6 @@
       "electronic_circuit": 2,
       "1x_tin_cable": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -428,7 +400,6 @@
       "electric_pump_lv": 1,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -445,7 +416,6 @@
       "bronze_fluid_pipe": 1,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -463,7 +433,6 @@
       "electronic_circuit": 2,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -479,7 +448,6 @@
       "electric_piston_lv": 2,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -497,7 +465,6 @@
       "diamond": 1,
       "electric_piston_lv": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -514,7 +481,6 @@
       "electronic_circuit": 2,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -530,7 +496,6 @@
       "large_bronze_fluid_pipe": 2,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -548,7 +513,6 @@
       "electric_motor_lv": 2,
       "1x_tin_cable": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -564,7 +528,6 @@
       "electronic_circuit": 2,
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -578,39 +541,36 @@
       "lead_ingot": 4,
       "antimony_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "battery_alloy_ingot": 5
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "battery_alloy_plate": [
     {
       "battery_alloy_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "battery_alloy_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "block_of_iron": [
     {
       "iron_ingot": 9,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "block_of_iron": 1
       },
-      "_machine": "Compressor"
+      "_machine": "Steam Compressor"
     }
   ],
   "brass_dust": [
@@ -618,20 +578,19 @@
       "copper_dust": 3,
       "zinc_dust": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "brass_dust": 4
       },
-      "_machine": "Mixer"
+      "_machine": "Basic Mixer"
     }
   ],
   "brick": [
     {
       "unfired_clay_brick": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "brick": 1
@@ -643,7 +602,7 @@
     {
       "small_pile_of_brick_dust": 4,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "brick_dust": 1
@@ -656,7 +615,6 @@
       "iron_furnace": 4,
       "firebricks": 4,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -671,7 +629,6 @@
       "firebricks": 12,
       "_type": "multiblock",
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -686,7 +643,6 @@
       "bricked_blast_furnace": 1,
       "_type": "multiblock",
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -701,7 +657,6 @@
       "firebricks": 20,
       "_type": "multiblock",
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -715,7 +670,6 @@
       "bricks": 3,
       "bronze_plate": 5,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -729,7 +683,6 @@
       "wrought_iron_plate": 5,
       "bricks": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -743,7 +696,7 @@
       "brick": 8,
       "water_bucket": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "bricks": 2
@@ -753,20 +706,18 @@
     {
       "brick": 4,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "bricks": 1
       },
-      "_machine": "Compressor"
+      "_machine": "Steam Compressor"
     }
   ],
   "bronze_fluid_pipe": [
     {
       "bronze_plate": 6,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -779,7 +730,6 @@
     {
       "bronze_rod": 8,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -790,20 +740,18 @@
     {
       "bronze_rod": 4,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "bronze_frame_box": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "bronze_hull": [
     {
       "bronze_plate": 8,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -817,13 +765,12 @@
       "copper_ingot": 3,
       "tin_ingot": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "bronze_ingot": 4
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "bronze_pipe_casing": [
@@ -832,7 +779,6 @@
       "bronze_fluid_pipe": 4,
       "bronze_frame_box": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -845,7 +791,7 @@
     {
       "bronze_ingot": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "bronze_plate": 1
@@ -855,24 +801,22 @@
     {
       "bronze_ingot": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "bronze_plate": 2
       },
-      "_machine": "Forge Hammer"
+      "_machine": "Steam Forge Hammer"
     },
     {
       "bronze_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "bronze_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "bronze_plated_bricks": [
@@ -880,7 +824,6 @@
       "bronze_plate": 6,
       "bricks": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -893,7 +836,7 @@
     {
       "bronze_rod": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "bronze_ring": 1
@@ -905,7 +848,6 @@
     {
       "bronze_ingot": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -916,14 +858,13 @@
     {
       "bronze_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "bronze_rod": 1,
         "small_pile_of_bronze_dust": 2
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "bronze_rotor": [
@@ -932,7 +873,6 @@
       "bronze_ring": 1,
       "bronze_screw": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -943,13 +883,12 @@
     {
       "bronze_ingot": 5,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "bronze_rotor": 1
       },
-      "_machine": "Extruder"
+      "_machine": "Basic Extruder"
     }
   ],
   "bucket_of_concrete": [
@@ -959,7 +898,6 @@
       "stone_dust": 1,
       "quartz_sand": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -972,7 +910,7 @@
     {
       "seared_bricks": 7,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "casting_basin": 1
@@ -984,7 +922,7 @@
     {
       "seared_brick": 7,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "casting_channel": 1
@@ -998,7 +936,7 @@
       "seared_stone": 1,
       "seared_brick": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "casting_table": 1
@@ -1010,13 +948,12 @@
     {
       "charcoal": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "charcoal_dust": 1
       },
-      "_machine": "Macerator"
+      "_machine": "Steam Macerator"
     }
   ],
   "chest": [
@@ -1025,7 +962,7 @@
       "wood_planks": 4,
       "flint": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "chest": 1
@@ -1035,12 +972,12 @@
     {
       "wood_planks": 8,
       "_tags": [
-        "Any"
+        "LV"
       ],
       "_outputs": {
         "chest": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "circuit_board": [
@@ -1048,7 +985,6 @@
       "1x_copper_wire": 8,
       "coated_circuit_board": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1061,20 +997,19 @@
       "copper_foil": 32,
       "refined_glue": 576,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "circuit_board": 8
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "clay_dust": [
     {
       "hardened_clay": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "clay_dust": 1
@@ -1084,33 +1019,31 @@
     {
       "hardened_clay": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "clay_dust": 1
       },
-      "_machine": "Macerator"
+      "_machine": "Steam Macerator"
     }
   ],
   "clay_plate": [
     {
       "clay_dust": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "clay_plate": 1
       },
-      "_machine": "Compressor"
+      "_machine": "Steam Compressor"
     }
   ],
   "clear_glass": [
     {
       "glass_dust": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "clear_glass": 1
@@ -1120,20 +1053,19 @@
     {
       "glass": 1,
       "_tags": [
-        "Any",
-        "MV"
+        "LV"
       ],
       "_outputs": {
         "clear_glass": 1
       },
-      "_machine": "Electric Blast Furnace"
+      "_machine": "Electric Blast Furnace MV Cupronickel"
     }
   ],
   "clear_glass_pane": [
     {
       "glass_dust": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "clear_glass_pane": 4
@@ -1144,13 +1076,12 @@
       "clear_glass": 3,
       "lubricant": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "clear_glass_pane": 8
       },
-      "_machine": "Cutting Machine"
+      "_machine": "Basic Cutting Machine"
     }
   ],
   "coated_circuit_board": [
@@ -1158,7 +1089,7 @@
       "sticky_resin": 2,
       "wood_plank": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "coated_circuit_board": 1
@@ -1172,33 +1103,30 @@
       "aluminium_dust": 1,
       "cobalt_dust": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "cobalt_brass_dust": 9
       },
-      "_machine": "Mixer"
+      "_machine": "Basic Mixer"
     }
   ],
   "cobalt_brass_gear": [
     {
       "molten_cobalt_brass": 576,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "cobalt_brass_gear": 1
       },
-      "_machine": "Fluid Solidifier"
+      "_machine": "Basic Fluid Solidifier"
     }
   ],
   "cobalt_brass_ingot": [
     {
       "cobalt_brass_dust": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -1211,27 +1139,25 @@
     {
       "cobalt_brass_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "cobalt_brass_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "cobalt_brass_rod": [
     {
       "cobalt_brass_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "cobalt_brass_rod": 1,
         "small_pile_of_cobalt_brass_dust": 2
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "coke_oven": [
@@ -1239,7 +1165,7 @@
       "coke_oven_brick_railcraft": 26,
       "_type": "multiblock",
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "coke_oven": 1
@@ -1251,7 +1177,7 @@
     {
       "unfired_coke_oven_brick": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "coke_oven_brick": 1
@@ -1262,20 +1188,19 @@
       "sand": 1,
       "clay": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "coke_oven_brick": 1
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "coke_oven_brick_railcraft": [
     {
       "coke_oven_brick": 4,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "coke_oven_brick_railcraft": 1
@@ -1287,13 +1212,12 @@
     {
       "fireclay_dust": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "compressed_fireclay": 1
       },
-      "_machine": "Compressor"
+      "_machine": "Steam Compressor"
     }
   ],
   "conveyor_module_lv": [
@@ -1302,7 +1226,6 @@
       "electric_motor_lv": 2,
       "1x_tin_cable": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -1315,7 +1238,7 @@
     {
       "copper_plate": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "copper_foil": 2
@@ -1325,47 +1248,44 @@
     {
       "copper_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "copper_foil": 4
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "copper_plate": [
     {
-      "copper_ingot": 3,
+      "copper_ingot": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
-        "copper_plate": 2
+        "copper_plate": 1
       },
       "_machine": "Shaped Crafting"
     },
     {
       "copper_ingot": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "copper_plate": 2
       },
-      "_machine": "Forge Hammer"
+      "_machine": "Steam Forge Hammer"
     },
     {
       "copper_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "copper_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "cupronickel_coil_block": [
@@ -1374,13 +1294,12 @@
       "mica_insulator_foil": 8,
       "molten_tin": 144,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "cupronickel_coil_block": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "cupronickel_ingot": [
@@ -1388,13 +1307,12 @@
       "copper_ingot": 1,
       "nickel_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "cupronickel_ingot": 2
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "diamond_sawblade": [
@@ -1402,20 +1320,18 @@
       "diamond_dust": 1,
       "cobalt_brass_gear": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "diamond_sawblade": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "double_clay_plate": [
     {
       "clay_plate": 2,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1428,7 +1344,7 @@
     {
       "silver_ingot": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "double_silver_ingot": 1
@@ -1440,7 +1356,7 @@
     {
       "silver_plate": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "double_silver_plate": 1
@@ -1455,7 +1371,6 @@
       "1x_tin_cable": 2,
       "heat_proof_machine_casing": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -1477,7 +1392,6 @@
       "muffler_hatch_lv": 1,
       "_type": "multiblock",
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -1493,7 +1407,6 @@
       "iron_rod": 2,
       "magnetic_iron_rod": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1510,7 +1423,6 @@
       "electric_motor_lv": 1,
       "small_steel_gear": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -1528,7 +1440,6 @@
       "1x_tin_cable": 1,
       "bronze_fluid_pipe": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -1545,7 +1456,6 @@
       "circuit_board": 1,
       "1x_red_alloy_cable": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1560,20 +1470,18 @@
       "1x_red_alloy_wire": 2,
       "molten_tin": 144,
       "_tags": [
-        "Any",
         "MV"
       ],
       "_outputs": {
         "electronic_circuit": 1
       },
-      "_machine": "Circuit Assembler"
+      "_machine": "Basic Circuit Assembler"
     }
   ],
   "fine_copper_wire": [
     {
       "copper_foil": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1584,20 +1492,18 @@
     {
       "copper_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "fine_copper_wire": 8
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "fine_steel_wire": [
     {
       "steel_foil": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1608,20 +1514,18 @@
     {
       "steel_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "fine_steel_wire": 8
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "firebrick": [
     {
       "compressed_fireclay": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1636,7 +1540,7 @@
       "gypsum_dust": 2,
       "bucket_of_concrete": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "firebricks": 1
@@ -1649,7 +1553,6 @@
       "clay_dust": 1,
       "brick_dust": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1662,7 +1565,7 @@
     {
       "tiny_pile_of_flint_dust": 9,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "flint_dust": 1
@@ -1672,13 +1575,12 @@
     {
       "flint": 2,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "flint_dust": 1
       },
-      "_machine": "Macerator"
+      "_machine": "Steam Macerator"
     }
   ],
   "furnace": [
@@ -1686,7 +1588,7 @@
       "cobblestone": 6,
       "flint": 3,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "furnace": 1
@@ -1696,20 +1598,19 @@
     {
       "cobblestone": 8,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "furnace": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "glass": [
     {
       "clear_glass": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "glass": 1
@@ -1719,25 +1620,23 @@
     {
       "glass_dust": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "glass": 1
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     },
     {
       "sand": 1,
       "oxygen_gas": 20,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "glass": 2
       },
-      "_machine": "Arc Furnace"
+      "_machine": "Basic Arc Furnace"
     }
   ],
   "glass_dust": [
@@ -1745,7 +1644,7 @@
       "quartz_sand": 1,
       "tiny_pile_of_flint_dust": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "glass_dust": 1
@@ -1756,26 +1655,24 @@
       "quartz_sand": 16,
       "flint_dust": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "glass_dust": 16
       },
-      "_machine": "Mixer"
+      "_machine": "Basic Mixer"
     }
   ],
   "glass_tube": [
     {
       "glass_dust": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "glass_tube": 1
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "good_electronic_circuit": [
@@ -1786,7 +1683,6 @@
       "good_circuit_board": 1,
       "diode": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -1801,13 +1697,12 @@
       "diode": 2,
       "molten_tin": 144,
       "_tags": [
-        "Any",
         "MV"
       ],
       "_outputs": {
         "good_electronic_circuit": 1
       },
-      "_machine": "Shaped Crafting"
+      "_machine": "Basic Circuit Assembler"
     }
   ],
   "grout": [
@@ -1817,7 +1712,7 @@
       "clay_dust": 2,
       "water_bucket": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "grout": 4
@@ -1830,13 +1725,12 @@
       "clay": 2,
       "water_bucket": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "grout": 8
       },
-      "_machine": "Mixer"
+      "_machine": "Basic Mixer"
     }
   ],
   "heat_proof_machine_casing": [
@@ -1844,7 +1738,6 @@
       "invar_plate": 6,
       "invar_frame_box": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -1860,7 +1753,6 @@
       "small_wrought_iron_fluid_pipe": 1,
       "steam_alloy_smelter": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1874,24 +1766,12 @@
       "steel_casing": 6,
       "steel_screw": 2,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "high_pressure_boiler_tank": 1
       },
       "_machine": "Shaped Crafting"
-    },
-    {
-      "steel_casing": 6,
-      "_tags": [
-        "Any",
-        "MV"
-      ],
-      "_outputs": {
-        "high_pressure_boiler_tank": 1
-      },
-      "_machine": "Assembler"
     }
   ],
   "high_pressure_steam_compressor": [
@@ -1901,7 +1781,6 @@
       "steel_plate": 1,
       "steam_compressor": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1917,7 +1796,6 @@
       "steel_plate": 1,
       "steam_extractor": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1933,7 +1811,6 @@
       "small_wrought_iron_fluid_pipe": 2,
       "steam_forge_hammer": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1949,7 +1826,6 @@
       "steel_plate": 1,
       "steam_furnace": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1965,7 +1841,6 @@
       "small_wrought_iron_fluid_pipe": 2,
       "steam_macerator": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -1980,7 +1855,7 @@
       "iron_gear": 1,
       "chest": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "hopper": 1
@@ -1991,20 +1866,18 @@
       "iron_plate": 5,
       "chest": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "hopper": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "huge_clay_fluid_pipe": [
     {
       "double_clay_plate": 6,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -2022,13 +1895,12 @@
         "refined_glue"
       ],
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "input_bus_lv": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "input_bus_steam": [
@@ -2038,7 +1910,6 @@
       "tin_plate": 2,
       "hopper": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2056,26 +1927,24 @@
         "refined_glue"
       ],
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "input_hatch_lv": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "invar_frame_box": [
     {
       "invar_rod": 4,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "invar_frame_box": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "invar_ingot": [
@@ -2083,47 +1952,44 @@
       "iron_ingot": 2,
       "nickel_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "invar_ingot": 3
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "invar_plate": [
     {
       "invar_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "invar_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "invar_rod": [
     {
       "invar_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "invar_rod": 1,
         "small_pile_of_invar_dust": 2
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "iron_bars": [
     {
       "iron_rod": 6,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_bars": 3
@@ -2133,20 +1999,19 @@
     {
       "iron_rod": 3,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "iron_bars": 4
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "iron_bolt": [
     {
       "iron_rod": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_bolt": 2
@@ -2157,13 +2022,12 @@
       "iron_rod": 1,
       "lubricant": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "iron_bolt": 4
       },
-      "_machine": "Cutting Machine"
+      "_machine": "Basic Cutting Machine"
     }
   ],
   "iron_furnace": [
@@ -2171,7 +2035,7 @@
       "iron_plate": 7,
       "furnace": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_furnace": 1
@@ -2182,12 +2046,12 @@
       "iron_plate": 5,
       "furnace": 1,
       "_tags": [
-        "Any"
+        "LV"
       ],
       "_outputs": {
         "iron_furnace": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "iron_gear": [
@@ -2195,7 +2059,7 @@
       "iron_rod": 4,
       "iron_plate": 4,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_gear": 1
@@ -2205,31 +2069,29 @@
     {
       "iron_ingot": 8,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "iron_gear": 1
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     },
     {
       "molten_iron": 576,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "iron_gear": 1
       },
-      "_machine": "Fluid Solidifier"
+      "_machine": "Basic Fluid Solidifier"
     }
   ],
   "iron_nugget": [
     {
       "iron_ingot": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_nugget": 9
@@ -2241,7 +2103,7 @@
     {
       "iron_ingot": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_plate": 1
@@ -2251,31 +2113,29 @@
     {
       "iron_ingot": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "iron_plate": 2
       },
-      "_machine": "Forge Hammer"
+      "_machine": "Steam Forge Hammer"
     },
     {
       "iron_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "iron_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "iron_ring": [
     {
       "iron_rod": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_ring": 1
@@ -2287,7 +2147,7 @@
     {
       "iron_ingot": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_rod": 1
@@ -2297,21 +2157,20 @@
     {
       "iron_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "iron_rod": 1,
         "small_pile_of_iron_dust": 2
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "iron_screw": [
     {
       "iron_bolt": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_screw": 1
@@ -2321,13 +2180,12 @@
     {
       "iron_bolt": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "iron_screw": 1
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "iron_tank_gauge": [
@@ -2336,7 +2194,7 @@
       "iron_screw": 4,
       "iron_plate": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_tank_gauge": 2
@@ -2347,13 +2205,12 @@
       "glass_pane": 2,
       "iron_plate": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "iron_tank_gauge": 2
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "iron_tank_railcraft_5x5": [
@@ -2363,7 +2220,6 @@
       "iron_tank_gauge": 9,
       "_type": "multiblock",
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2378,7 +2234,6 @@
       "large_bronze_fluid_pipe": 2,
       "iron_bars": 2,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2390,13 +2245,12 @@
       "large_bronze_fluid_pipe": 2,
       "iron_bars": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "iron_tank_valve": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "iron_tank_wall": [
@@ -2404,7 +2258,7 @@
       "iron_plate": 4,
       "iron_screw": 4,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "iron_tank_wall": 2
@@ -2414,20 +2268,18 @@
     {
       "iron_plate": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "iron_tank_wall": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "large_bronze_fluid_pipe": [
     {
       "bronze_plate": 6,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2440,7 +2292,6 @@
     {
       "clay_plate": 6,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2455,7 +2306,6 @@
       "bricks": 2,
       "iron_furnace": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2468,7 +2318,6 @@
     {
       "steel_plate": 6,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2481,7 +2330,7 @@
     {
       "wood_planks": 6,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "large_wooden_fluid_pipe": 2
@@ -2492,13 +2341,12 @@
       "wood_plank": 6,
       "refined_glue": 10,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "large_wooden_fluid_pipe": 2
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "low_voltage_coil": [
@@ -2506,13 +2354,12 @@
       "magnetic_iron_rod": 1,
       "fine_steel_wire": 16,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "low_voltage_coil": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "low_voltage_fluid_tank": [
@@ -2523,7 +2370,6 @@
       "electric_pump_lv": 1,
       "huge_clay_fluid_pipe": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -2537,13 +2383,12 @@
       "redstone": 1,
       "oil": 750,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "lubricant": 750
       },
-      "_machine": "Brewery"
+      "_machine": "Basic Brewery"
     }
   ],
   "lv_energy_hatch": [
@@ -2555,20 +2400,18 @@
       "electronic_circuit": 1,
       "lubricant": 2000,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "lv_energy_hatch": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "lv_machine_casing": [
     {
       "steel_plate": 8,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2584,26 +2427,12 @@
       "1x_tin_cable": 2,
       "lv_machine_casing": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "lv_machine_hull": 1
       },
       "_machine": "Shaped Crafting"
-    },
-    {
-      "1x_tin_cable": 2,
-      "lv_machine_casing": 1,
-      "molten_polyethylene": 288,
-      "_tags": [
-        "Any",
-        "LV"
-      ],
-      "_outputs": {
-        "lv_machine_hull": 1
-      },
-      "_machine": "Assembler"
     }
   ],
   "magnetic_iron_rod": [
@@ -2611,7 +2440,6 @@
       "iron_rod": 1,
       "redstone": 4,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2622,20 +2450,18 @@
     {
       "iron_rod": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "magnetic_iron_rod": 1
       },
-      "_machine": "Electromagnetic Polarizer"
+      "_machine": "Basic Polarizer"
     }
   ],
   "maintenance_hatch": [
     {
       "lv_machine_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -2649,13 +2475,12 @@
       "mica_dust": 3,
       "raw_rubber_dust": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "mica_based_pulp": 4
       },
-      "_machine": "Mixer"
+      "_machine": "Basic Mixer"
     }
   ],
   "mica_based_sheet": [
@@ -2663,26 +2488,24 @@
       "mica_based_pulp": 4,
       "asbestos_dust": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "mica_based_sheet": 4
       },
-      "_machine": "Forming Press"
+      "_machine": "Basic Forming Press"
     }
   ],
   "mica_insulator_foil": [
     {
       "mica_insulator_sheet": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "mica_insulator_foil": 4
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "mica_insulator_sheet": [
@@ -2690,26 +2513,24 @@
       "mica_based_sheet": 4,
       "nether_quartz_dust": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "mica_insulator_sheet": 4
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "mining_pipe": [
     {
       "large_steel_fluid_pipe": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "mining_pipe": 8
       },
-      "_machine": "Wiremill"
+      "_machine": "Basic Wiremill"
     }
   ],
   "mixed_metal_ingot": [
@@ -2718,7 +2539,6 @@
       "bronze_plate": 1,
       "tin_plate": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2731,13 +2551,12 @@
     {
       "tin_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "molten_tin": 144
       },
-      "_machine": "Fluid Extractor"
+      "_machine": "Basic Fluid Extractor"
     }
   ],
   "muffler_hatch_lv": [
@@ -2747,7 +2566,6 @@
       "bronze_fluid_pipe": 1,
       "bronze_rotor": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -2760,13 +2578,12 @@
     {
       "obsidian": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "obsidian_dust": 9
       },
-      "_machine": "Macerator"
+      "_machine": "Steam Macerator"
     }
   ],
   "obsidian_glass": [
@@ -2774,13 +2591,12 @@
       "thickened_glass": 1,
       "obsidian_dust": 4,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "obsidian_glass": 1
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "output_bus_lv": [
@@ -2789,13 +2605,12 @@
       "chest": 1,
       "refined_glue": 720,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "output_bus_lv": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "output_bus_steam": [
@@ -2805,7 +2620,6 @@
       "tin_plate": 2,
       "hopper": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2818,21 +2632,20 @@
     {
       "water": 500,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "oxygen_gas": 500,
         "hydrogen_gas": 1000
       },
-      "_machine": "Electrolyzer"
+      "_machine": "Basic Electrolyzer"
     }
   ],
   "piston": [
     {
       "coin_the_technician_1": 20,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "piston": 2
@@ -2844,7 +2657,7 @@
     {
       "sand": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "quartz_sand": 1
@@ -2854,20 +2667,19 @@
     {
       "sand": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "quartz_sand": 1
       },
-      "_machine": "Macerator"
+      "_machine": "Steam Macerator"
     }
   ],
   "raw_aluminum": [
     {
       "aluminum_gravel_ore": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "raw_aluminum": 1
@@ -2879,32 +2691,29 @@
     {
       "rubber_wood": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "raw_rubber_dust": 1
       },
-      "_machine": "Extractor"
+      "_machine": "Basic Extractor"
     },
     {
       "sticky_resin": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "raw_rubber_dust": 3,
         "refined_glue": 100
       },
-      "_machine": "Centrifuge"
+      "_machine": "Basic Centrifuge"
     }
   ],
   "red_alloy_bolt": [
     {
       "red_alloy_rod": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2916,13 +2725,12 @@
       "red_alloy_rod": 1,
       "lubricant": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "red_alloy_bolt": 4
       },
-      "_machine": "Cutting Machine"
+      "_machine": "Basic Cutting Machine"
     }
   ],
   "red_alloy_ingot": [
@@ -2930,44 +2738,40 @@
       "copper_ingot": 1,
       "redstone": 4,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "red_alloy_ingot": 1
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "red_alloy_plate": [
     {
       "red_alloy_ingot": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "red_alloy_plate": 2
       },
-      "_machine": "Forge Hammer"
+      "_machine": "Steam Forge Hammer"
     },
     {
       "red_alloy_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "red_alloy_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "red_alloy_rod": [
     {
       "red_alloy_ingot": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -2978,28 +2782,26 @@
     {
       "red_alloy_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "red_alloy_rod": 1,
         "small_pile_of_red_alloy_dust": 2
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "refined_glue": [
     {
       "sticky_resin": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "refined_glue": 100,
         "raw_rubber_dust": 3
       },
-      "_machine": "Centrifuge"
+      "_machine": "Basic Centrifuge"
     }
   ],
   "reinforced_glass": [
@@ -3007,13 +2809,12 @@
       "advanced_alloy": 1,
       "glass_dust": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "reinforced_glass": 4
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "reinforced_lava_boiler": [
@@ -3022,7 +2823,6 @@
       "steel_hull": 1,
       "tank": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3038,7 +2838,6 @@
       "1x_copper_wire": 2,
       "charcoal_dust": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3052,13 +2851,12 @@
       "charcoal_dust": 1,
       "refined_glue": 288,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "resistor": 8
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "robot_arm_lv": [
@@ -3069,7 +2867,6 @@
       "electronic_circuit": 1,
       "electric_piston_lv": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
@@ -3083,20 +2880,18 @@
       "raw_rubber_dust": 3,
       "sulfur_dust": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "rubber_bar": 1
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "rubber_ring": [
     {
       "rubber_sheet": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3107,34 +2902,31 @@
     {
       "rubber_bar": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "rubber_ring": 4
       },
-      "_machine": "Extruder"
+      "_machine": "Basic Extruder"
     }
   ],
   "rubber_sheet": [
     {
       "rubber_bar": 1,
       "_tags": [
-        "Any",
-        "Steam",
         "LV"
       ],
       "_outputs": {
         "rubber_sheet": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "seared_brick": [
     {
       "unfired_seared_brick": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "seared_brick": 1
@@ -3144,13 +2936,12 @@
     {
       "grout": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "seared_brick": 1
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     }
   ],
   "seared_bricks": [
@@ -3158,7 +2949,7 @@
       "seared_brick": 8,
       "water_bucket": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "seared_bricks": 2
@@ -3168,20 +2959,19 @@
     {
       "seared_brick": 4,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "seared_bricks": 1
       },
-      "_machine": "Compressor"
+      "_machine": "Steam Compressor"
     }
   ],
   "seared_faucet": [
     {
       "seared_brick": 5,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "seared_faucet": 1
@@ -3193,7 +2983,7 @@
     {
       "cobblestone": 20,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "seared_stone": 1
@@ -3206,7 +2996,7 @@
       "seared_bricks": 4,
       "seared_brick": 4,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "seared_tank": 1
@@ -3218,7 +3008,7 @@
     {
       "silver_ingot": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "silver_plate": 1
@@ -3228,24 +3018,22 @@
     {
       "silver_ingot": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "silver_plate": 2
       },
-      "_machine": "Forge Hammer"
+      "_machine": "Steam Forge Hammer"
     },
     {
       "silver_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "silver_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "simple_solar_boiler": [
@@ -3255,7 +3043,6 @@
       "bricked_bronze_hull": 1,
       "double_silver_plate": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3269,7 +3056,6 @@
       "1x_tin_cable": 1,
       "battery_alloy_plate": 2,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3282,20 +3068,18 @@
       "battery_alloy_plate": 1,
       "molten_polyethylene": 144,
       "_tags": [
-        "Any",
-        "LV"
+        "MV"
       ],
       "_outputs": {
         "small_battery_hull": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "small_bronze_fluid_pipe": [
     {
       "bronze_plate": 6,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3309,20 +3093,19 @@
       "lithium_dust": 2,
       "small_battery_hull": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "small_lithium_battery": 1
       },
-      "_machine": "Canner"
+      "_machine": "Basic Canning Machine"
     }
   ],
   "small_pile_of_brick_dust": [
     {
       "brick": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "small_pile_of_brick_dust": 1
@@ -3332,20 +3115,19 @@
     {
       "brick": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "small_pile_of_brick_dust": 1
       },
-      "_machine": "Forge Hammer"
+      "_machine": "Steam Forge Hammer"
     }
   ],
   "small_pile_of_diamond_dust": [
     {
       "diamond_dust": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "small_pile_of_diamond_dust": 4
@@ -3357,7 +3139,6 @@
     {
       "steel_plate": 6,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3371,31 +3152,18 @@
       "steel_rod": 2,
       "steel_plate": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "small_steel_gear": 1
       },
       "_machine": "Shaped Crafting"
-    },
-    {
-      "molten_steel": 144,
-      "_tags": [
-        "Any",
-        "LV"
-      ],
-      "_outputs": {
-        "small_steel_gear": 1
-      },
-      "_machine": "Fluid Solidifier"
     }
   ],
   "small_wrought_iron_fluid_pipe": [
     {
       "wrought_iron_plate": 6,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3415,7 +3183,7 @@
       "casting_table": 1,
       "_type": "multiblock",
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "smeltery": 1
@@ -3429,7 +3197,7 @@
       "seared_brick": 4,
       "furnace": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "smeltery_controller": 1
@@ -3442,7 +3210,7 @@
       "seared_brick": 8,
       "casting_channel": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "smeltery_drain": 1
@@ -3456,7 +3224,6 @@
       "small_bronze_fluid_pipe": 6,
       "bricked_bronze_hull": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3471,7 +3238,6 @@
       "bricks": 2,
       "iron_furnace": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3486,7 +3252,6 @@
       "piston": 2,
       "bronze_hull": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3502,7 +3267,6 @@
       "bronze_hull": 1,
       "glass": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3518,7 +3282,6 @@
       "piston": 1,
       "bronze_hull": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3533,7 +3296,6 @@
       "furnace": 1,
       "bricked_bronze_hull": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3549,7 +3311,6 @@
       "diamond": 2,
       "tumbaga_frame_box": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3567,9 +3328,6 @@
       "steam_grinder": 1,
       "_type": "multiblock",
       "_tags": [
-        "Any",
-        "LV",
-        "MV",
         "Steam"
       ],
       "_outputs": {
@@ -3584,7 +3342,6 @@
       "bronze_fluid_pipe": 2,
       "ultra_low_voltage_fluid_tank": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3600,7 +3357,6 @@
       "piston": 2,
       "bronze_hull": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3615,7 +3371,6 @@
       "steel_firebox_casing": 4,
       "high_pressure_steam_furnace": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3629,7 +3384,6 @@
       "steam_oven": 8,
       "_type": "multiblock",
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3645,7 +3399,6 @@
       "wrought_iron_plate": 3,
       "anvil": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3665,7 +3418,6 @@
       "steam_presser": 1,
       "_type": "multiblock",
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3678,7 +3430,6 @@
     {
       "steel_rod": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3690,51 +3441,47 @@
       "steel_rod": 1,
       "lubricant": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "steel_bolt": 4
       },
-      "_machine": "Cutting Machine"
+      "_machine": "Basic Cutting Machine"
     }
   ],
   "steel_casing": [
     {
       "steel_ingot": 2,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "steel_casing": 3
       },
-      "_machine": "Alloy Smelter"
+      "_machine": "Steam Alloy Smelter"
     },
     {
       "steel_plate": 1,
       "lubricant": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "steel_casing": 2
       },
-      "_machine": "Cutting Machine"
+      "_machine": "Basic Cutting Machine"
     }
   ],
   "steel_dust": [
     {
       "steel_ingot": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "steel_dust": 1
       },
-      "_machine": "Macerator"
+      "_machine": "Steam Macerator"
     }
   ],
   "steel_firebox_casing": [
@@ -3743,7 +3490,6 @@
       "steel_plate": 4,
       "steel_frame_box": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3756,7 +3502,6 @@
     {
       "steel_rod": 8,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3767,13 +3512,12 @@
     {
       "steel_rod": 4,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "steel_frame_box": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "steel_gear": [
@@ -3781,31 +3525,18 @@
       "steel_rod": 4,
       "steel_plate": 4,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "steel_gear": 1
       },
       "_machine": "Shaped Crafting"
-    },
-    {
-      "molten_steel": 576,
-      "_tags": [
-        "Any",
-        "LV"
-      ],
-      "_outputs": {
-        "steel_gear": 1
-      },
-      "_machine": "Fluid Solidifier"
     }
   ],
   "steel_hull": [
     {
       "steel_plate": 8,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3819,7 +3550,6 @@
       "iron_ingot": 10,
       "block_of_coal": 4,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3832,44 +3562,40 @@
       "wrought_iron_dust": 1,
       "oxygen_gas": 1000,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "steel_ingot": 1
       },
-      "_machine": "Electric Blast Furnace"
+      "_machine":  "Electric Blast Furnace MV Cupronickel"
     }
   ],
   "steel_plate": [
     {
       "steel_ingot": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "steel_plate": 2
       },
-      "_machine": "Forge Hammer"
+      "_machine": "Steam Forge Hammer"
     },
     {
       "steel_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "steel_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "steel_rod": [
     {
       "steel_ingot": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3880,21 +3606,19 @@
     {
       "steel_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "steel_rod": 1,
         "small_pile_of_steel_dust": 2
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "steel_screw": [
     {
       "steel_bolt": 2,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3905,20 +3629,19 @@
     {
       "steel_bolt": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "steel_screw": 1
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "stick": [
     {
       "wood_planks": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "stick": 4
@@ -3928,13 +3651,12 @@
     {
       "wood_planks": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "stick": 2
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "sulfur_dust": [
@@ -3945,10 +3667,9 @@
         "arsenic_dust": 1
       },
       "_tags": [
-        "Any",
         "LV"
       ],
-      "_machine": "Centrifuge"
+      "_machine": "Basic Centrifuge"
     }
   ],
   "tank": [
@@ -3957,7 +3678,6 @@
       "iron_ring": 2,
       "obsidian_glass": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -3969,20 +3689,19 @@
       "iron_ring": 2,
       "obsidian_glass": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "tank": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "thickened_glass": [
     {
       "clear_glass": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "thickened_glass": 1
@@ -3994,7 +3713,7 @@
     {
       "tin_rod": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "tin_bolt": 2
@@ -4005,20 +3724,19 @@
       "tin_rod": 1,
       "lubricant": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "tin_bolt": 4
       },
-      "_machine": "Cutting Machine"
+      "_machine": "Basic Cutting Machine"
     }
   ],
   "tin_plate": [
     {
       "tin_ingot": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "tin_plate": 1
@@ -4028,31 +3746,29 @@
     {
       "tin_ingot": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "tin_plate": 2
       },
-      "_machine": "Forge Hammer"
+      "_machine": "Steam Forge Hammer"
     },
     {
       "tin_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "tin_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "tin_ring": [
     {
       "tin_rod": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "tin_ring": 1
@@ -4064,7 +3780,7 @@
     {
       "tin_ingot": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "tin_rod": 1
@@ -4074,13 +3790,13 @@
     {
       "tin_ingot": 1,
       "_tags": [
-        "Any"
+        "LV"
       ],
       "_outputs": {
         "tin_rod": 1,
         "small_pile_of_tin_dust": 2
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "tin_rotor": [
@@ -4089,7 +3805,7 @@
       "tin_screw": 1,
       "tin_ring": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "tin_rotor": 1
@@ -4099,20 +3815,19 @@
     {
       "tin_ingot": 5,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "tin_rotor": 1
       },
-      "_machine": "Extruder"
+      "_machine": "Basic Extruder"
     }
   ],
   "tin_screw": [
     {
       "tin_bolt": 2,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "tin_screw": 1
@@ -4122,20 +3837,19 @@
     {
       "tin_bolt": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "tin_screw": 1
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "tiny_pile_of_flint_dust": [
     {
       "flint_dust": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "tiny_pile_of_flint_dust": 9
@@ -4148,7 +3862,7 @@
       "double_silver_ingot": 1,
       "silver_ingot": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "triple_silver_ingot": 1
@@ -4161,7 +3875,7 @@
       "double_silver_plate": 1,
       "silver_plate": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "triple_silver_plate": 1
@@ -4174,7 +3888,6 @@
       "tumbaga_mix_dust": 3,
       "gold_dust": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -4186,20 +3899,18 @@
       "copper_dust": 3,
       "gold_dust": 7,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "tumbaga_dust": 10
       },
-      "_machine": "Mixer"
+      "_machine": "Basic Mixer"
     }
   ],
   "tumbaga_frame_box": [
     {
       "tumbaga_rod": 8,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -4210,20 +3921,18 @@
     {
       "tumbaga_rod": 4,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "tumbaga_frame_box": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "tumbaga_ingot": [
     {
       "tumbaga_dust": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -4237,7 +3946,6 @@
       "gold_dust": 2,
       "copper_dust": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -4250,31 +3958,28 @@
     {
       "tumbaga_ingot": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "tumbaga_plate": 2
       },
-      "_machine": "Forge Hammer"
+      "_machine": "Steam Forge Hammer"
     },
     {
       "tumbaga_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "tumbaga_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
     }
   ],
   "tumbaga_rod": [
     {
       "tumbaga_ingot": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -4285,14 +3990,13 @@
     {
       "tumbaga_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "tumbaga_rod": 1,
         "small_pile_of_tumbaga_dust": 2
       },
-      "_machine": "Lathe"
+      "_machine": "Basic Lathe"
     }
   ],
   "ultra_low_voltage_fluid_tank": [
@@ -4303,7 +4007,6 @@
       "large_clay_fluid_pipe": 1,
       "water_bucket": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -4316,7 +4019,7 @@
     {
       "clay": 8,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "unfired_clay_brick": 8
@@ -4329,7 +4032,7 @@
       "sand": 5,
       "clay": 3,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "unfired_coke_oven_brick": 3
@@ -4341,7 +4044,7 @@
     {
       "grout": 8,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "unfired_seared_brick": 8
@@ -4357,7 +4060,6 @@
       "steel_rod": 2,
       "red_alloy_bolt": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -4366,32 +4068,30 @@
       "_machine": "Shaped Crafting"
     },
     {
-      "1x_annealed_copper_wire": 4,
       "glass_tube": 4,
+      "1x_annealed_copper_wire": 4,
       "steel_rod": 4,
-      "molten_redstone_alloy": 72,
+      "molten_red_alloy": 72,
+      "_outputs": {
+        "vacuum_tube": 8
+      },
       "_tags": [
-        "Any",
         "LV"
       ],
-      "_outputs": {
-        "vacuum_tube": 16
-      },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "vanadium_dust": [
     {
       "vanadium_magnetite_dust": 2,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "vanadium_dust": 1,
         "magnetite_dust": 1
       },
-      "_machine": "Centrifuge"
+      "_machine": "Basic Centrifuge"
     }
   ],
   "vanadiumsteel_dust": [
@@ -4400,13 +4100,12 @@
       "vanadium_dust": 1,
       "chrome_dust": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "vanadiumsteel_dust": 9
       },
-      "_machine": "Mixer"
+      "_machine": "Basic Mixer"
     }
   ],
   "vanadiumsteel_ingot": [
@@ -4414,13 +4113,12 @@
       "vanadiumsteel_dust": 1,
       "oxygen_gas": 1000,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "vanadiumsteel_ingot": 1
       },
-      "_machine": "Electric Blast Furnace"
+      "_machine": "Electric Blast Furnace MV Cupronickel"
     }
   ],
   "water_tank_railcraft": [
@@ -4428,7 +4126,6 @@
       "water_tank_siding": 26,
       "_type": "multiblock",
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -4443,7 +4140,7 @@
       "iron_rod": 2,
       "sticky_resin": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "water_tank_siding": 1
@@ -4455,20 +4152,19 @@
       "wood_frame_box": 4,
       "refined_glue": 72,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "water_tank_siding": 3
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "wood_frame_box": [
     {
       "stick": 8,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "wood_frame_box": 2
@@ -4478,45 +4174,42 @@
     {
       "stick": 4,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "wood_frame_box": 1
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "wood_plank": [
     {
       "wood_pulp": 8,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "wood_plank": 1
       },
-      "_machine": "Compressor"
+      "_machine": "Steam Compressor"
     },
     {
       "wood_pulp": 64,
       "refined_glue": 144,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "wood_plank": 64
       },
-      "_machine": "Assembler"
+      "_machine": "Basic Assembling Machine"
     }
   ],
   "wood_planks": [
     {
       "wood": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "wood_planks": 4
@@ -4527,21 +4220,20 @@
       "wood": 1,
       "lubricant": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "wood_planks": 6,
         "wood_pulp": 1
       },
-      "_machine": "Cutting Machine"
+      "_machine": "Basic Cutting Machine"
     }
   ],
   "wood_pulp": [
     {
       "wood": 1,
       "_tags": [
-        "Any"
+        "Stone"
       ],
       "_outputs": {
         "wood_pulp": 2
@@ -4551,45 +4243,41 @@
     {
       "wood": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "wood_pulp": 6
       },
-      "_machine": "Macerator"
+      "_machine": "Steam Macerator"
     }
   ],
   "wrought_iron_ingot": [
     {
       "wrought_iron_nugget": 9,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "wrought_iron_ingot": 1
       },
-      "_machine": "Compressor"
+      "_machine": "Steam Compressor"
     },
     {
-      "iron_nugget": 1,
+      "iron_ingot": 1,
       "oxygen_gas": 56,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "wrought_iron_ingot": 1
       },
-      "_machine": "Arc Furnace"
+      "_machine": "Basic Arc Furnace"
     }
   ],
   "wrought_iron_nugget": [
     {
       "iron_nugget": 1,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
@@ -4602,24 +4290,1389 @@
     {
       "wrought_iron_ingot": 3,
       "_tags": [
-        "Any",
         "Steam"
       ],
       "_outputs": {
         "wrought_iron_plate": 2
       },
-      "_machine": "Forge Hammer"
+      "_machine": "Steam Forge Hammer"
     },
     {
       "wrought_iron_ingot": 1,
       "_tags": [
-        "Any",
         "LV"
       ],
       "_outputs": {
         "wrought_iron_plate": 1
       },
-      "_machine": "Bending Machine"
+      "_machine": "Basic Bending Machine"
+    }
+  ],
+  "emitter_lv": [
+    {
+      "brass_rod": 4,
+      "electronic_circuit": 2,
+      "1x_tin_cable": 2,
+      "certus_quartz": 1,
+      "_outputs": {
+        "emitter_lv": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "brass_rod": [
+    {
+      "brass_ingot": 1,
+      "_outputs": {
+        "brass_rod": 1,
+        "small_pile_of_brass_dust": 2
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Lathe"
+    }
+  ],
+  "brass_ingot": [
+    {
+      "copper_ingot": 3,
+      "zinc_ingot": 1,
+      "_outputs": {
+        "brass_ingot": 4
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Steam Alloy Smelter"
+    }
+  ],
+  "molten_red_alloy": [
+    {
+      "red_alloy_ingot": 1,
+      "_outputs": {
+        "molten_red_alloy": 144
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Fluid Extractor"
+    }
+  ],
+  "1x_annealed_copper_wire": [
+    {
+      "annealed_copper_ingot": 1,
+      "_outputs": {
+        "1x_annealed_copper_wire": 2
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Wiremill"
+    }
+  ],
+  "annealed_copper_ingot": [
+    {
+      "copper_ingot": 1,
+      "oxygen_gas": 63,
+      "_outputs": {
+        "annealed_copper_ingot": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Arc Furnace"
+    }
+  ],
+  "fine_annealed_copper_wire": [
+    {
+      "annealed_copper_ingot": 1,
+      "_outputs": {
+        "fine_annealed_copper_wire": 8
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Wiremill"
+    }
+  ],
+  "basic_chemical_reactor": [
+    {
+      "glass": 2,
+      "tin_rotor": 1,
+      "1x_tin_cable": 2,
+      "electric_motor_lv": 1,
+      "electronic_circuit": 2,
+      "lv_machine_hull": 1,
+      "_outputs": {
+        "basic_chemical_reactor": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "damascus_steel_dust": [
+    {
+      "steel_dust": 1,
+      "small_pile_of_manganese_dust": 2,
+      "tiny_pile_of_raw_silicon_dust": 1,
+      "small_pile_of_chrome_dust": 2,
+      "tiny_pile_of_vanadium_dust": 1,
+      "tiny_pile_of_coal_dust": 1,
+      "_outputs": {
+        "damascus_steel_dust": 2
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shapeless Crafting"
+    }
+  ],
+  "small_pile_of_chrome_dust": [
+    {
+      "chrome_dust": 1,
+      "_outputs": {
+        "small_pile_of_chrome_dust": 4
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "small_pile_of_manganese_dust": [
+    {
+      "manganese_dust": 1,
+      "_outputs": {
+        "small_pile_of_manganese_dust": 4
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "tiny_pile_of_coal_dust": [
+    {
+      "coal_dust": 1,
+      "_outputs": {
+        "tiny_pile_of_coal_dust": 9
+      },
+      "_tags": [
+        "Stone"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "tiny_pile_of_raw_silicon_dust": [
+    {
+      "raw_silicon_dust": 1,
+      "_outputs": {
+        "tiny_pile_of_raw_silicon_dust": 9
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "tiny_pile_of_vanadium_dust": [
+    {
+      "vanadium_dust": 1,
+      "_outputs": {
+        "tiny_pile_of_vanadium_dust": 9
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "raw_silicon_dust": [
+    {
+      "nether_quartz_dust": 3,
+      "magnesium_dust": 2,
+      "_outputs": {
+        "raw_silicon_dust": 1,
+        "magnesia_dust": 4
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Chemical Reactor"
+    },
+    {
+      "sodalite_dust": 11,
+      "_outputs": {
+        "aluminium_dust": 3,
+        "raw_silicon_dust": 3,
+        "sodium_dust": 4,
+        "chlorine": 1000
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Advanced Electrolyzer"
+    }
+  ],
+  "gold_to_diamond_chest_upgrade": [
+    {
+      "diamond_plate": 2,
+      "diamond_screw": 2,
+      "gold_plate": 1,
+      "_outputs": {
+        "gold_to_diamond_chest_upgrade": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "diamond_plate": [
+    {
+      "block_of_diamond": 1,
+      "lubricant": 180,
+      "_outputs": {
+        "diamond_plate": 9
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Cutting Machine"
+    }
+  ],
+  "diamond_screw": [
+    {
+      "diamond_bolt": 1,
+      "_outputs": {
+        "diamond_screw": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Lathe"
+    }
+  ],
+  "gold_plate": [
+    {
+      "gold_ingot": 1,
+      "_outputs": {
+        "gold_plate": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Bending Machine"
+    }
+  ],
+  "diamond_bolt": [
+    {
+      "diamond_rod": 1,
+      "lubricant": 4,
+      "_outputs": {
+        "diamond_bolt": 4
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Cutting Machine"
+    }
+  ],
+  "diamond_rod": [
+    {
+      "diamond": 1,
+      "_outputs": {
+        "diamond_rod": 1,
+        "small_pile_of_diamond_dust": 2
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Lathe"
+    }
+  ],
+  "item_dislocator": [
+    {
+      "block_of_magnetic_steel": 2,
+      "magnetic_steel_ingot": 4,
+      "small_lithium_battery": 1,
+      "_outputs": {
+        "item_dislocator": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "block_of_magnetic_steel": [
+    {
+      "magnetic_steel_ingot": 9,
+      "_outputs": {
+        "block_of_magnetic_steel": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Steam Compressor"
+    }
+  ],
+  "magnetic_steel_ingot": [
+    {
+      "steel_ingot": 1,
+      "_outputs": {
+        "magnetic_steel_ingot": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Polarizer"
+    }
+  ],
+  "basic_polarizer": [
+    {
+      "2x_tin_wire": 4,
+      "1x_tin_cable": 2,
+      "iron_rod": 2,
+      "lv_machine_hull": 1,
+      "_outputs": {
+        "basic_polarizer": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "2x_tin_wire": [
+    {
+      "tin_ingot": 1,
+      "_outputs": {
+        "2x_tin_wire": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Wiremill"
+    }
+  ],
+  "charging_bench": [
+    {
+      "4x_copper_wire": 2,
+      "steel_plate": 1,
+      "battery": 2,
+      "lv_machine_hull": 1,
+      "electronic_circuit": 2,
+      "copper_coil": 1,
+      "_outputs": {
+        "charging_bench": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "battery": [
+    {
+      "small_battery_hull": 1,
+      "electrotine": 6,
+      "_outputs": {
+        "battery": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Canning Machine"
+    }
+  ],
+  "copper_coil": [
+    {
+      "copper_ingot": 1,
+      "draw_plate": 1,
+      "_outputs": {
+        "copper_coil": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "draw_plate": [
+    {
+      "block_of_iron_post": 4,
+      "block_of_diamond_panel": 1,
+      "_outputs": {
+        "draw_plate": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "block_of_diamond_panel": [
+    {
+      "block_of_diamond_slab": 1,
+      "_outputs": {
+        "block_of_diamond_panel": 2
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Microblock Crafting"
+    }
+  ],
+  "block_of_diamond_slab": [
+    {
+      "block_of_diamond": 1,
+      "_outputs": {
+        "block_of_diamond_slab": 2
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Microblock Crafting"
+    }
+  ],
+  "block_of_diamond": [
+    {
+      "diamond": 9,
+      "_outputs": {
+        "block_of_diamond": 1
+      },
+      "_tags": [
+        "Steam"
+      ],
+      "_machine": "Steam Compressor"
+    }
+  ],
+  "block_of_iron_post": [
+    {
+      "block_of_iron_panel": 1,
+      "_outputs": {
+        "block_of_iron_post": 2
+      },
+      "_tags": [
+        "Steam"
+      ],
+      "_machine": "Microblock Crafting"
+    }
+  ],
+  "block_of_iron_panel": [
+    {
+      "block_of_iron_slab": 1,
+      "_outputs": {
+        "block_of_iron_panel": 2
+      },
+      "_tags": [
+        "Steam"
+      ],
+      "_machine": "Microblock Crafting"
+    }
+  ],
+  "block_of_iron_slab": [
+    {
+      "block_of_iron": 1,
+      "_outputs": {
+        "block_of_iron_slab": 2
+      },
+      "_tags": [
+        "Steam"
+      ],
+      "_machine": "Microblock Crafting"
+    }
+  ],
+  "laboratory_block": [
+    {
+      "stone": 4,
+      "nether_quartz": 1,
+      "_outputs": {
+        "laboratory_block": 8
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "tyrian": [
+    {
+      "stone": 4,
+      "iron_plate": 1,
+      "_outputs": {
+        "tyrian": 8
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "scaffold": [
+    {
+      "steel_frame_box": 1,
+      "steel_grate": 1,
+      "_outputs": {
+        "scaffold": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "steel_grate": [
+    {
+      "steel_rod": 5,
+      "steel_screw": 3,
+      "_outputs": {
+        "steel_grate": 10
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "catwalk": [
+    {
+      "steel_grate": 3,
+      "steel_screw": 2,
+      "_outputs": {
+        "catwalk": 6
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "caged_ladder": [
+    {
+      "steel_grate": 4,
+      "ladder": 1,
+      "_outputs": {
+        "caged_ladder": 6
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "ladder": [
+    {
+      "stick": 2,
+      "steel_screw": 1,
+      "_outputs": {
+        "ladder": 8
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "wrought_iron_dust": [
+    {
+      "wrought_iron_ingot": 1,
+      "_outputs": {
+        "wrought_iron_dust": 1
+      },
+      "_tags": [
+        "Steam"
+      ],
+      "_machine": "Steam Macerator"
+    }
+  ],
+  "aluminium_ingot": [
+    {
+      "alumina_dust": 10,
+      "cryolite_dust": 5,
+      "_outputs": {
+        "aluminium_ingot": 4
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Electric Blast Furnace MV Cupronickel"
+    }
+  ],
+  "alumite_dust": [
+    {
+      "steel_dust": 2,
+      "aluminium_dust": 5,
+      "obsidian_dust": 2,
+      "_outputs": {
+        "alumite_dust": 9
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Mixer"
+    }
+  ],
+  "large_potin_fluid_pipe": [
+    {
+      "potin_ingot": 6,
+      "_outputs": {
+        "large_potin_fluid_pipe": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Extruder"
+    }
+  ],
+  "potin_ingot": [
+    {
+      "potin_dust": 1,
+      "_outputs": {
+        "potin_ingot": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Smelting"
+    }
+  ],
+  "potin_dust": [
+    {
+      "lead_dust": 2,
+      "bronze_dust": 2,
+      "tin_dust": 1,
+      "_outputs": {
+        "potin_dust": 5
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Mixer"
+    }
+  ],
+  "grimstone": [
+    {
+      "stone": 4,
+      "coal": 1,
+      "_outputs": {
+        "grimstone": 8
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "crop_manager_lv": [
+    {
+      "robot_arm_lv": 2,
+      "sensor_lv": 1,
+      "steel_sense_blade": 2,
+      "lv_machine_hull": 1,
+      "electronic_circuit": 2,
+      "input_hatch_lv": 1,
+      "_outputs": {
+        "crop_manager_lv": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "sensor_lv": [
+    {
+      "steel_plate": 4,
+      "brass_rod": 1,
+      "certus_quartz": 1,
+      "electronic_circuit": 1,
+      "_outputs": {
+        "sensor_lv": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steel_sense_blade": [
+    {
+      "steel_plate": 2,
+      "steel_ingot": 1,
+      "_outputs": {
+        "steel_sense_blade": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "pyrolyse_oven_multiblock": [
+    {
+      "pyrolyse_oven": 1,
+      "kanthal_coil_block": 9,
+      "maintenance_hatch": 1,
+      "output_bus_lv": 1,
+      "output_hatch_lv": 1,
+      "mv_energy_hatch": 1,
+      "pyrolyse_oven_casing": 65,
+      "muffler_hatch_lv": 1,
+      "input_hatch_lv": 1,
+      "input_bus_lv": 1,
+      "_type": "multiblock",
+      "_outputs": {
+        "pyrolyse_oven_multiblock": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Multiblock"
+    }
+  ],
+  "kanthal_coil_block": [
+    {
+      "2x_kanthal_wire": 8,
+      "mica_insulator_foil": 12,
+      "molten_cupronickel": 144,
+      "_outputs": {
+        "kanthal_coil_block": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Advanced Assembling Machine"
+    }
+  ],
+  "2x_kanthal_wire": [
+    {
+      "kanthal_ingot": 1,
+      "_outputs": {
+        "2x_kanthal_wire": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Basic Wiremill"
+    }
+  ],
+  "kanthal_ingot": [
+    {
+      "hot_kanthal_ingot": 1,
+      "IC2_coolant": 250,
+      "_outputs": {
+        "kanthal_ingot": 1,
+        "IC2_hot_coolant": 250
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Advanced Chemical Bath"
+    }
+  ],
+  "hot_kanthal_ingot": [
+    {
+      "kanthal_dust": 1,
+      "oxygen_gas": 1000,
+      "_outputs": {
+        "hot_kanthal_ingot": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Electric Blast Furnace HV Cupronickel"
+    }
+  ],
+  "kanthal_dust": [
+    {
+      "iron_dust": 1,
+      "aluminium_dust": 1,
+      "chrome_dust": 1,
+      "_outputs": {
+        "kanthal_dust": 3
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Basic Mixer"
+    }
+  ],
+  "IC2_coolant": [
+    {
+      "lapis_dust": 1,
+      "distilled_water": 1000,
+      "_outputs": {
+        "IC2_coolant": 1000
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Advanced Mixer"
+    }
+  ],
+  "distilled_water": [
+    {
+      "oxygen_gas": 1000,
+      "hydrogen_gas": 2000,
+      "_outputs": {
+        "distilled_water": 1000
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Chemical Reactor"
+    }
+  ],
+  "molten_cupronickel": [
+    {
+      "cupronickel_ingot": 1,
+      "_outputs": {
+        "molten_cupronickel": 144
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Advanced Fluid Extractor"
+    }
+  ],
+  "mv_energy_hatch": [
+    {
+      "ultra_low_power_ic": 2,
+      "medium_voltage_coil": 2,
+      "lubricant": 2000,
+      "1x_copper_cable": 1,
+      "mv_machine_hull": 1,
+      "electric_pump_mv": 1,
+      "_outputs": {
+        "mv_energy_hatch": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "1x_copper_cable": [
+    {
+      "1x_copper_wire": 1,
+      "molten_rubber": 144,
+      "_outputs": {
+        "1x_copper_cable": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "molten_rubber": [
+    {
+      "rubber_bar": 1,
+      "_outputs": {
+        "molten_rubber": 144
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Fluid Extractor"
+    }
+  ],
+  "electric_pump_mv": [
+    {
+      "bronze_screw": 1,
+      "bronze_rotor": 1,
+      "rubber_ring": 2,
+      "steel_fluid_pipe": 1,
+      "electric_motor_mv": 1,
+      "1x_copper_cable": 1,
+      "_outputs": {
+        "electric_pump_mv": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "bronze_screw": [
+    {
+      "bronze_bolt": 1,
+      "_outputs": {
+        "bronze_screw": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Lathe"
+    }
+  ],
+  "bronze_bolt": [
+    {
+      "bronze_rod": 1,
+      "lubricant": 1,
+      "_outputs": {
+        "bronze_bolt": 4
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Cutting Machine"
+    }
+  ],
+  "electric_motor_mv": [
+    {
+      "1x_copper_cable": 2,
+      "2x_cupronickel_wire": 4,
+      "aluminium_rod": 2,
+      "magnetic_steel_rod": 1,
+      "_outputs": {
+        "electric_motor_mv": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "aluminium_rod": [
+    {
+      "aluminium_ingot": 1,
+      "_outputs": {
+        "aluminium_rod": 2
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Extruder"
+    }
+  ],
+  "aluminium_dust": [
+    {
+      "aluminium_ingot": 1,
+      "_outputs": {
+        "aluminium_dust": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Steam Macerator"
+    },
+    {
+      "sodalite_dust": 11,
+      "_outputs": {
+        "aluminium_dust": 3,
+        "raw_silicon_dust": 3,
+        "sodium_dust": 4,
+        "chlorine": 1000
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Advanced Electrolyzer"
+    }
+  ],
+  "magnetic_steel_rod": [
+    {
+      "steel_rod": 1,
+      "_outputs": {
+        "magnetic_steel_rod": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Polarizer"
+    }
+  ],
+  "medium_voltage_coil": [
+    {
+      "magnetic_steel_rod": 1,
+      "fine_aluminium_wire": 16,
+      "_outputs": {
+        "medium_voltage_coil": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Advanced Assembling Machine"
+    }
+  ],
+  "fine_aluminium_wire": [
+    {
+      "aluminium_ingot": 1,
+      "_outputs": {
+        "fine_aluminium_wire": 8
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Wiremill"
+    }
+  ],
+  "mv_machine_hull": [
+    {
+      "wrought_iron_plate": 2,
+      "aluminium_plate": 1,
+      "1x_copper_cable": 2,
+      "mv_machine_casing": 1,
+      "_outputs": {
+        "mv_machine_hull": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "mv_machine_casing": [
+    {
+      "aluminium_plate": 8,
+      "_outputs": {
+        "mv_machine_casing": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "output_hatch_lv": [
+    {
+      "lv_machine_hull": 1,
+      "tank": 1,
+      "refined_glue": 720,
+      "_outputs": {
+        "output_hatch_lv": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "aluminium_plate": [
+    {
+      "aluminium_ingot": 1,
+      "_outputs": {
+        "aluminium_plate": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Bending Machine"
+    }
+  ],
+  "pyrolyse_oven": [
+    {
+      "electric_piston_mv": 2,
+      "good_electronic_circuit": 3,
+      "4x_cupronickel_wire": 2,
+      "mv_machine_hull": 1,
+      "electric_pump_mv": 1,
+      "_outputs": {
+        "pyrolyse_oven": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "4x_cupronickel_wire": [
+    {
+      "cupronickel_ingot": 2,
+      "_outputs": {
+        "4x_cupronickel_wire": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Wiremill"
+    }
+  ],
+  "electric_piston_mv": [
+    {
+      "aluminium_plate": 3,
+      "aluminium_rod": 2,
+      "small_aluminium_gear": 1,
+      "1x_copper_cable": 2,
+      "electric_motor_mv": 1,
+      "_outputs": {
+        "electric_piston_mv": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "good_circuit_board": [
+    {
+      "1x_gold_wire": 8,
+      "phenolic_circuit_board": 1,
+      "_outputs": {
+        "good_circuit_board": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "phenolic_circuit_board": [
+    {
+      "wood_pulp": 8,
+      "refined_glue": 288,
+      "_outputs": {
+        "phenolic_circuit_board": 8
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "pyrolyse_oven_casing": [
+    {
+      "steel_plate": 4,
+      "iron_plate": 2,
+      "bronze_plated_bricks": 1,
+      "_outputs": {
+        "pyrolyse_oven_casing": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Assembling Machine"
+    }
+  ],
+  "small_aluminium_gear": [
+    {
+      "aluminium_rod": 2,
+      "aluminium_plate": 1,
+      "_outputs": {
+        "small_aluminium_gear": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "steel_fluid_pipe": [
+    {
+      "steel_plate": 6,
+      "_outputs": {
+        "steel_fluid_pipe": 2
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Shaped Crafting"
+    }
+  ],
+  "ultra_low_power_ic": [
+    {
+      "ulpic_wafer": 1,
+      "lubricant": 84,
+      "_outputs": {
+        "ultra_low_power_ic": 6
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Advanced Cutting Machine"
+    }
+  ],
+  "ulpic_wafer": [
+    {
+      "wafer": 1,
+      "emerald_lens": 1,
+      "_outputs": {
+        "ulpic_wafer": 2
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Basic Precision Laser Engraver"
+    }
+  ],
+  "emerald_lens": [
+    {
+      "emerald_plate": 1,
+      "_outputs": {
+        "emerald_lens": 1,
+        "small_pile_of_emerald_dust": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Advanced Lathe"
+    }
+  ],
+  "emerald_plate": [
+    {
+      "block_of_emerald": 1,
+      "lubricant": 4,
+      "_outputs": {
+        "emerald_plate": 9
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Cutting Machine"
+    }
+  ],
+  "block_of_emerald": [
+    {
+      "emerald": 9,
+      "_outputs": {
+        "block_of_emerald": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Cutting Machine"
+    }
+  ],
+  "wafer": [
+    {
+      "monocrystalline_silicon_boule": 1,
+      "lubricant": 9,
+      "_outputs": {
+        "wafer": 16,
+        "silicon_solar_grade_poly_si_dust": 4
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Basic Cutting Machine"
+    }
+  ],
+  "monocrystalline_silicon_boule": [
+    {
+      "silicon_solar_grade_poly_si_dust": 32,
+      "small_gallium_arsenide_crystal": 1,
+      "_outputs": {
+        "monocrystalline_silicon_boule": 1
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Electric Blast Furnace MV Cupronickel"
+    }
+  ],
+  "silicon_solar_grade_poly_si_dust": [
+    {
+      "sodium_dust": 4,
+      "silicon_tetrachloride": 1000,
+      "_outputs": {
+        "silicon_solar_grade_poly_si_dust": 1,
+        "salt": 8
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Basic Chemical Reactor"
+    }
+  ],
+  "trichlorosilane": [
+    {
+      "raw_silicon_dust": 1,
+      "hydrochloric_acid": 3000,
+      "_outputs": {
+        "trichlorosilane": 1000,
+        "hydrogen": 2000
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Basic Chemical Reactor"
+    }
+  ],
+  "hydrochloric_acid": [
+    {
+      "chlorine": 1000,
+      "hydrogen_gas": 1000,
+      "_outputs": {
+        "hydrochloric_acid": 1000
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Basic Chemical Reactor"
+    }
+  ],
+  "chlorine": [
+    {
+      "salt": 2,
+      "_outputs": {
+        "chlorine": 1000,
+        "sodium_dust": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Basic Electrolyzer"
+    }
+  ],
+  "silicon_tetrachloride": [
+    {
+      "raw_silicon_dust": 1,
+      "chlorine": 4000,
+      "_outputs": {
+        "silicon_tetrachloride": 1000
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Basic Chemical Reactor"
+    }
+  ],
+  "sodium_dust": [
+    {
+      "sodalite_dust": 11,
+      "_outputs": {
+        "aluminium_dust": 3,
+        "raw_silicon_dust": 3,
+        "sodium_dust": 4,
+        "chlorine": 1000
+      },
+      "_tags": [
+        "MV"
+      ],
+      "_machine": "Advanced Electrolyzer"
+    }
+  ],
+  "small_gallium_arsenide_crystal": [
+    {
+      "gallium_arsenide_crystal": 1,
+      "_outputs": {
+        "small_gallium_arsenide_crystal": 4
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Steam Forge Hammer"
+    }
+  ],
+  "gallium_arsenide_crystal": [
+    {
+      "gallium_dust": 1,
+      "arsenic_dust": 1,
+      "_outputs": {
+        "gallium_arsenide_crystal": 1
+      },
+      "_tags": [
+        "LV"
+      ],
+      "_machine": "Electric Blast Furnace MV Cupronickel"
     }
   ]
 }

@@ -63,9 +63,10 @@ def get_best_recipe(name, recipes, tech_level):
 
     entry = recipes[name]
     if isinstance(entry, dict):
-        return entry, "Any"
+        return entry
 
-    tag_order = ["Any", "Steam", "LV", "MV", "HV", "EV", "IV", "LuV", "ZPN", "UV", "UHV", "UEV", "UIV", "UMV", "UXV", "MAX"]
+    tag_order = ["Stone", "Steam", "LV", "MV", "HV", "EV", "IV", "LuV", "ZPN", "UV",
+                 "UHV", "UEV", "UIV", "UMV", "UXV", "MAX"]
     max_index = tag_order.index(tech_level)
 
     best = None
@@ -84,6 +85,7 @@ def get_best_recipe(name, recipes, tech_level):
                     recipe_max_idx = idx
                     recipe_tag = tag
 
+        # ✅ Key fix: only consider recipes whose max tag ≤ current tech level
         if recipe_max_idx <= max_index and recipe_max_idx > best_score:
             best = r
             best_score = recipe_max_idx
@@ -152,37 +154,55 @@ def format_recipe_view(name, recipe):
 # - Handles nested input chains (i.e., components of components)
 # - Stops recursion at items with no recipe (raw inputs)
 # Returns: dict of item_name → total quantity needed
-def calculate_raw_materials(name, quantity, recipes, inventory=None):
+def calculate_raw_materials(name, quantity, recipes, tech_level="MAX", inventory=None):
     if inventory is None:
         inventory = {}
 
     raw_needed = {}
+    produced = {}
 
-    def recurse(item, qty_needed):
-        entry = recipes.get(item)
-        if isinstance(entry, list):
-            entry = entry[0]
+    def recurse(item, qty_needed, path=()):
+        if item in path:
+            print(f"Cycle detected: {' -> '.join(path + (item,))}")
+            return
 
-        # Spend from inventory if available
+        # Find the recipe variant that matches the tech level
+        entry, _ = get_best_recipe(item, recipes, tech_level)
+
+        # Use inventory
         have = inventory.get(item, 0)
         remaining = max(0, qty_needed - have)
         inventory[item] = max(0, have - qty_needed)
 
-        # If no recipe exists for this item, treat it as a raw resource
-        if not entry or not isinstance(entry, dict) or all(k.startswith("_") for k in entry.keys()):
-            raw_needed[item] = raw_needed.get(item, 0) + qty_needed
+        # Use from produced pool
+        if item in produced:
+            use_from_pool = min(remaining, produced[item])
+            remaining -= use_from_pool
+            produced[item] -= use_from_pool
+
+        # Done? No need to recurse further
+        if remaining == 0:
             return
 
+        # No recipe → raw material
+        if not entry or all(k.startswith("_") for k in entry.keys()):
+            raw_needed[item] = raw_needed.get(item, 0) + remaining
+            return
+
+        # Determine how many times to craft to satisfy output
         outputs = entry.get("_outputs", {})
         output_count = outputs.get(item, 1)
-
-        # Determine how many crafts are needed to fulfill the remaining quantity
         crafts_needed = ceil(remaining / output_count)
-        inputs = entry.get("_inputs", entry)
 
+        # Record ALL outputs from crafting this recipe
+        for out_item, out_qty in outputs.items():
+            produced[out_item] = produced.get(out_item, 0) + crafts_needed * out_qty
+
+        # Recurse into inputs
+        inputs = entry.get("_inputs", entry)
         for sub, count in inputs.items():
             if not sub.startswith("_"):
-                recurse(sub, count * crafts_needed)
+                recurse(sub, count * crafts_needed, path + (item,))
 
     recurse(name, quantity)
     return raw_needed

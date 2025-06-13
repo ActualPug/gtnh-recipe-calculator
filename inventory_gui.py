@@ -26,7 +26,7 @@ from logic import split_recipe_types
 # Path to the inventory JSON file (stored alongside this script)
 # Ordered list of all tech level tags used for filtering and labeling
 inventory_file = os.path.join(os.path.dirname(__file__), "inventory.json")
-ALL_TAGS = ["Any", "Steam", "LV", "MV", "HV", "EV", "IV", "LuV", "ZPN", "UV", "UHV", "UEV", "UIV", "UMV", "UXV", "MAX"]
+ALL_TAGS = ["Stone", "Steam", "LV", "MV", "HV", "EV", "IV", "LuV", "ZPN", "UV", "UHV", "UEV", "UIV", "UMV", "UXV", "MAX"]
 
 # === Inventory File Utilities ===
 
@@ -70,7 +70,7 @@ def group_by_tag(recipe_dict):
     grouped = {}
     for name, data in recipe_dict.items():
         entry = data[0] if isinstance(data, list) else data
-        tags = entry.get("_tags", ["Any"])
+        tags = entry.get("_tags")
         for tag in tags:
             if tag not in grouped:
                 grouped[tag] = []
@@ -83,7 +83,7 @@ def get_filtered_names(recipe_dict, selected_tags):
     selected = [tag for tag, var in selected_tags.items() if var.get()]
     labeled_names = {}
     # Ordered tech level priority (higher index = more advanced)
-    tag_priority = ["Any", "Raw", "Steam", "LV", "MV", "HV", "EV", "IV", "LuV", "ZPN", "UV", "UHV", "UEV", "UIV", "UMV", "UXV", "MAX"]
+    tag_priority = ["Stone", "Raw", "Steam", "LV", "MV", "HV", "EV", "IV", "LuV", "ZPN", "UV", "UHV", "UEV", "UIV", "UMV", "UXV", "MAX"]
 
     for name in sorted(recipe_dict):
         entries = recipe_dict[name]
@@ -103,9 +103,14 @@ def get_filtered_names(recipe_dict, selected_tags):
                     best_index = tag_priority.index(tag)
 
         if best_tag:
-            labeled_names[name] = f"[{best_tag}] {name}"
+            for entry in entries:
+                tags = entry.get("_tags", [])
+                for tag in tags:
+                    if tag in selected:
+                        labeled_names[f"[{tag}] {name}"] = True
 
-    return list(labeled_names.values())
+    return sorted(labeled_names.keys())
+
 
 # === Inventory Editor Window ===
 
@@ -403,7 +408,7 @@ def open_inventory_editor(root):
     
     for raw in raw_materials:
         recipes[raw] = {
-            "_tags": ["Raw", "Any"]
+            "_tags": ["Raw"]
         }
 
     # Group recipes by tag for later filtering and dropdown population.
