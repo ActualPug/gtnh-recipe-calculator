@@ -138,7 +138,14 @@ def can_craft_now(item, recipes, inventory, tech_level, needed_qty):
 
     outputs = recipe.get("_outputs", {})
     output_count = outputs.get(item, 1)
-    crafts_needed = ceil(needed_qty / output_count)
+
+    # Subtract existing inventory first
+    already_have = inventory.get(item, 0)
+    remaining_qty = max(0, needed_qty - already_have)
+
+    crafts_needed = ceil(remaining_qty / output_count)
+    if crafts_needed <= 0:
+        return True  # Already have enough
 
     inputs = recipe.get("_inputs", recipe)
     for k, v in inputs.items():
@@ -146,6 +153,33 @@ def can_craft_now(item, recipes, inventory, tech_level, needed_qty):
             if inventory.get(k, 0) < v * crafts_needed:
                 return False
     return True
+
+# Search through the output text for a specific component or term.
+def search_output(search_var, forward=True):
+    output_text.tag_remove("highlight", "1.0", tk.END)
+    query = search_var.get().strip()
+    if not query:
+        return
+
+    start_pos = output_text.index(tk.INSERT)
+
+    if forward:
+        # Move forward from after current insert position
+        pos = output_text.search(query, f"{start_pos}+1c", stopindex=tk.END, nocase=True)
+        if not pos:  # wrap search
+            pos = output_text.search(query, "1.0", stopindex=tk.END, nocase=True)
+    else:
+        # Move backwards from just before the current insert position
+        pos = output_text.search(query, f"{start_pos}-1c", stopindex="1.0", backwards=True, nocase=True)
+        if not pos:  # wrap search backwards
+            pos = output_text.search(query, tk.END, stopindex="1.0", backwards=True, nocase=True)
+
+    if pos:
+        end_pos = f"{pos}+{len(query)}c"
+        output_text.tag_add("highlight", pos, end_pos)
+        output_text.tag_config("highlight", background="yellow", foreground="black")
+        output_text.mark_set(tk.INSERT, pos)
+        output_text.see(pos)
 
 # === Recipe Logic ===
 
@@ -349,121 +383,120 @@ def view_raw_materials(name):
 
         show_raw = show_raw_var_single.get() if name in singleblocks else show_raw_var_multi.get()
 
-        if show_raw:
-            # Raw material breakdown (deepest level only)
-            raw_materials = calculate_raw_materials(name, quantity, recipes, current_tech_level.get(), inventory.copy())
-            entry = recipes.get(name)
-            if isinstance(entry, list):
-                entry = entry[0]
-            elif not isinstance(entry, dict):
-                entry = {}
+        original_inventory = inventory.copy()
+        inventory = inventory.copy()
+        component_totals = {}
+        component_usage = {}
+        produced = {}
 
-            formatted = format_raw_materials_with_inventory(raw_materials, inventory)
+        def collect_components(item, qty_needed, is_root=False):
+            entry, _ = get_best_recipe(item, recipes, current_tech_level.get())
 
-            for line in formatted.splitlines():
-                if line.startswith("- "):
-                    # Detect if ✔ is present
-                    tag = "have_all" if "✔" in line else "missing_some"
-                    output_text.insert(tk.END, line + "\n", tag)
-                else:
-                    # Header or whitespace
-                    output_text.insert(tk.END, line + "\n")
+            # 1) Track total requested
+            component_totals[item] = component_totals.get(item, 0) + qty_needed
 
-
-            if all(max(0, raw_materials[k] - inventory.get(k, 0)) == 0 for k in raw_materials):
-                output_text.insert(tk.END, "\n\n✔ All materials available!")
-
-        else:
-            # Inventory-aware full component breakdown (deduct top-down)
-            original_inventory = inventory
-            inventory = inventory.copy()  # this one gets mutated
-            component_totals = {}
-
-            # Recursively traverse recipe tree to gather total required materials, accounting for what is already in inventory
-            def collect_components(item, qty_needed):
-                nonlocal inventory
-                entry, _ = get_best_recipe(item, recipes, current_tech_level.get())
-
-                # Check how much we already have
+            # 2) Consume from inventory unless this is the top-level target
+            if is_root:
+                remaining = qty_needed
+            else:
                 have = inventory.get(item, 0)
-                remaining = max(0, qty_needed - have)
+                used = min(have, qty_needed)
+                remaining = qty_needed - used
                 inventory[item] = max(0, have - qty_needed)
+                component_usage[item] = component_usage.get(item, 0) + used
 
-                # Always record the total needed
-                if item != name:
-                    component_totals[item] = component_totals.get(item, 0) + remaining
+            # 3) Consume from produced pool (batch outputs from earlier crafts)
+            if remaining > 0 and item in produced:
+                use_from_pool = min(remaining, produced[item])
+                remaining -= use_from_pool
+                produced[item] -= use_from_pool
 
+            # Raw or unknown → stop
+            if entry is None or all(k.startswith("_") for k in entry.keys()):
+                return
 
-                # ✅ If fully satisfied by inventory, no need to recurse
-                if remaining == 0:
-                    return
+            # 4) Figure out crafts needed for the remainder
+            outputs = entry.get("_outputs", {})
+            output_count = outputs.get(item, 1)
+            crafts = ceil(remaining / output_count) if output_count else 0
 
-                # Raw material or no recipe — stop here
-                if not entry or not isinstance(entry, dict) or all(k.startswith("_") for k in entry.keys()):
-                    return
+            # 5) Record ALL outputs from this crafting into the produced pool
+            if crafts > 0:
+                for out_item, out_qty in outputs.items():
+                    produced[out_item] = produced.get(out_item, 0) + crafts * out_qty
+                    
+                if remaining > 0:
+                    used_now = min(remaining, produced.get(item, 0))
+                    produced[item] = produced.get(item, 0) - used_now
 
-                # Crafting logic
-                outputs = entry.get("_outputs", {})
-                output_count = outputs.get(item, 1)
-                crafts_needed = ceil(remaining / output_count)
+            # 6) Recurse into inputs
+            inputs = entry.get("_inputs", entry)
+            for sub, count in inputs.items():
+                if not sub.startswith("_"):
+                    collect_components(sub, count * crafts)
 
-                inputs = entry.get("_inputs", entry)
+        collect_components(name, quantity, is_root=True)
 
-                # Recursive case: calculate how many crafts are needed and descend into inputs
-                for sub, count in inputs.items():
-                    if not sub.startswith("_"):
-                        collect_components(sub, count * crafts_needed)
-
-            collect_components(name, quantity)
-
-            # Format and display each required material along with machine info 
+        if show_raw:
+            output_text.insert(tk.END, "Total Raw Materials (Adjusted for Inventory):\n")
+        else:
             output_text.insert(tk.END, f"All Components Needed to Build {quantity}x {name}:\n\n")
 
-            for comp, needed in sorted(component_totals.items()):
-                have = original_inventory.get(comp, 0)
-                missing = max(0, needed - have)
+        all_available = True
+        used_machines = set()
 
-                status = f"(have {have}, need {missing})"
-                checkmark = " ✔" if missing == 0 else ""
-                # Check for machine used to make this component
-                machine = ""
-                comp_recipe, _ = get_best_recipe(comp, recipes, current_tech_level.get())
-                if isinstance(comp_recipe, dict):
-                    machine = comp_recipe.get("_machine", "")
+        for comp in sorted(component_totals):
+            if comp == name:
+                continue  # Skip top-level item from display
 
-                machine_str = f" [{machine}]" if machine else ""
+            entry, _ = get_best_recipe(comp, recipes, current_tech_level.get())
+            # Use the top-level recipe structure to determine if the component is raw
+            has_recipe = comp in recipes and any(not k.startswith("_") for k in get_best_recipe(comp, recipes, current_tech_level.get())[0] or {})
+            if show_raw and has_recipe:
+                continue
 
-                line = f"- {comp}: {needed} {status}{checkmark}{machine_str}\n"
-                if missing == 0:
-                    tag = "have_all"
-                elif can_craft_now(comp, recipes, original_inventory, current_tech_level.get(), needed):
-                    tag = "can_craft"
-                else:
-                    tag = "missing_some"
-                output_text.insert(tk.END, line, tag)
+            needed = component_totals[comp]
+            have = original_inventory.get(comp, 0)
+            missing = max(0, needed - have)
+            checkmark = " ✔" if missing == 0 else ""
+            status = f"(have {have}, need {missing})"
 
-            if all(max(0, component_totals[k] - original_inventory.get(k, 0)) == 0 for k in component_totals):
-                output_text.insert(tk.END, "\n\n✔ All materials available!")
-            
-            # Collect machines needed for all listed materials
-            used_machines = set()
+            if missing > 0:
+                all_available = False
 
-            for comp in component_totals:
-                recipe, _ = get_best_recipe(comp, recipes, current_tech_level.get())
-                if recipe:
-                    machine = recipe.get("_machine")
-                    if machine:
-                        used_machines.add(machine)
+            machine = ""
+            if entry and isinstance(entry, dict):
+                machine = entry.get("_machine", "")
 
-            if used_machines:
-                output_text.insert(tk.END, "\nMachines Needed:\n")
-                for machine in sorted(used_machines):
-                    output_text.insert(tk.END, f"- {machine}\n")
+            machine_str = f" [{machine}]" if machine and not show_raw else ""
+            line = f"- {comp}: {needed} {status}{checkmark}{machine_str}\n"
+            print(line)
+
+            if missing == 0:
+                tag = "have_all"
+            elif can_craft_now(comp, recipes, original_inventory, current_tech_level.get(), needed):
+                tag = "can_craft"
+            else:
+                tag = "missing_some"
+
+            output_text.insert(tk.END, line, tag)
+
+            if not show_raw and machine:
+                used_machines.add(machine)
+
+        if all_available:
+            output_text.insert(tk.END, "\n\n✔ All materials available!")
+
+        if not show_raw and used_machines:
+            output_text.insert(tk.END, "\nMachines Needed:\n")
+            for machine in sorted(used_machines):
+                output_text.insert(tk.END, f"- {machine}\n")
 
     else:
         output_text.insert(tk.END, f"No recipe found for '{name}'.")
 
     output_text.config(state=tk.DISABLED)
+
 
 # --- View Component Tree ---
 # Displays a formatted tree view of all components needed to craft a specific recipe.
@@ -605,12 +638,16 @@ quantity_var_multi = tk.StringVar(value="1")
 quantity_entry_multi = tk.Entry(button_frame_multi, textvariable=quantity_var_multi, width=5)
 show_raw_var_multi = tk.BooleanVar(value=True)
 
-output_text = tk.Text(root, height=15, width=75)
+output_text = tk.Text(root, height=15, width=175)
 output_text.tag_configure("have_all", foreground="green")
 output_text.tag_configure("can_craft", foreground="orange")
 output_text.tag_configure("missing_some", foreground="red")
 output_text.configure(font=("Consolas", 10))  # or ("Courier New", 10)
 output_text.config(state=tk.DISABLED)
+
+search_frame = tk.Frame(root)
+search_var = tk.StringVar()
+search_entry = tk.Entry(search_frame, textvariable=search_var, width=30)
 
 view_tree_button_frame = tk.Frame(root)
 
@@ -687,11 +724,17 @@ tk.Checkbutton(button_frame_multi, text="Show Raw Materials", variable=show_raw_
 
 output_text.grid(row=17, column=0, columnspan=2, pady=5)
 
-view_tree_button_frame.grid(row=18, column=0, columnspan=2, pady=2)
+search_frame.grid(row=18, column=0, columnspan=4, pady=2)
+tk.Label(search_frame, text="Search:").grid(row=0, column=0, padx=5)
+search_entry.grid(row=0, column=1, padx=5)
+tk.Button(search_frame, text="Find Next", command=lambda: search_output(search_var, True)).grid(row=0, column=2, padx=5)
+tk.Button(search_frame, text="Find Prev", command=lambda: search_output(search_var, False)).grid(row=0, column=3, padx=5)
+
+view_tree_button_frame.grid(row=19, column=0, columnspan=2, pady=2)
 tk.Button(view_tree_button_frame, text="Manage Inventory", command=lambda: open_inventory_editor(root)).grid(row=0, column=0, padx=5)
 tk.Button(view_tree_button_frame, text="View Tree", command=view_component_tree).grid(row=0, column=1, padx=5)
 
-tech_level_frame.grid(row=19, column=0, columnspan=2, pady=2)
+tech_level_frame.grid(row=20, column=0, columnspan=2, pady=2)
 tk.Label(tech_level_frame, text="Your Tech Level").grid(row=0, column=0, sticky="e", padx=5)
 tk.OptionMenu(tech_level_frame, current_tech_level, *ALL_TAGS).grid(row=0, column=1, sticky="w", padx=5)
 

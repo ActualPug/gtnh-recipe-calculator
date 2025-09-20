@@ -275,7 +275,7 @@ def open_inventory_editor(root):
     # Rebuild the item dropdown list based on selected tags.
     # Ensures that raw materials (not craftable) are included only if not already labeled.
     def refresh_dropdown():
-        flat_recipes = {**singleblocks, **{raw: recipes[raw] for raw in raw_materials}}
+        flat_recipes = {**singleblocks, **multiblocks, **{raw: recipes[raw] for raw in raw_materials}}
         filtered = get_filtered_names(flat_recipes, selected_tags)
 
         existing_names = set(name.split("] ", 1)[-1] for name in filtered if "] " in name)
@@ -397,14 +397,15 @@ def open_inventory_editor(root):
     raw_materials = set()
 
     # Determine which items are raw materials (used in recipes but not produced by any recipe).
-    # These will be added as "[Raw]" entries in the dropdown.
+    # This version checks ALL recipe variants, not just the first one.
     for r in recipes.values():
-        entry = r[0] if isinstance(r, list) else r
-        inputs = entry.get("_inputs", entry)
+        entries = r if isinstance(r, list) else [r]
+        for entry in entries:
+            inputs = entry.get("_inputs", entry)
+            for k in inputs:
+                if not k.startswith("_") and k not in recipe_items:
+                    raw_materials.add(k)
 
-        for k in inputs:
-            if not k.startswith("_") and k not in recipe_items:
-                raw_materials.add(k)
     
     for raw in raw_materials:
         recipes[raw] = {
@@ -419,7 +420,7 @@ def open_inventory_editor(root):
 
     # Combine recipes and raw materials into one dropdown list.
     # Avoid duplicates by checking which raw items are already labeled by a recipe.
-    flat_recipes = {**singleblocks, **{raw: recipes[raw] for raw in raw_materials}}
+    flat_recipes = {**singleblocks, **multiblocks, **{raw: recipes[raw] for raw in raw_materials}}
     filtered = get_filtered_names(flat_recipes, selected_tags)
     existing_names = set(name.split("] ", 1)[-1] for name in filtered if "] " in name)
     raw_only = [f"[Raw] {r}" for r in sorted(raw_materials) if r not in existing_names]

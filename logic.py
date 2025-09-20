@@ -155,54 +155,77 @@ def format_recipe_view(name, recipe):
 # - Stops recursion at items with no recipe (raw inputs)
 # Returns: dict of item_name → total quantity needed
 def calculate_raw_materials(name, quantity, recipes, tech_level="MAX", inventory=None):
+    return calculate_raw_materials_bulk({name: quantity}, recipes, tech_level, inventory)
+
+def calculate_raw_materials_bulk(targets, recipes, tech_level="MAX", inventory=None):
     if inventory is None:
         inventory = {}
 
     raw_needed = {}
     produced = {}
 
+    def get_best_recipe(name):
+        # wrapper if you already have a function; keep whatever you use today
+        recipe, _ = get_best_recipe(name, recipes, tech_level)  # re-use your existing selector
+        return recipe
+
     def recurse(item, qty_needed, path=()):
         if item in path:
-            print(f"Cycle detected: {' -> '.join(path + (item,))}")
+            # optional: handle cycles if relevant
             return
 
-        # Find the recipe variant that matches the tech level
-        entry, _ = get_best_recipe(item, recipes, tech_level)
-
-        # Use inventory
+        # 1) Use inventory first
         have = inventory.get(item, 0)
-        remaining = max(0, qty_needed - have)
-        inventory[item] = max(0, have - qty_needed)
+        take = min(have, qty_needed)
+        qty_needed -= take
+        inventory[item] = have - take
 
-        # Use from produced pool
-        if item in produced:
-            use_from_pool = min(remaining, produced[item])
-            remaining -= use_from_pool
-            produced[item] -= use_from_pool
+        # 2) Use previously produced outputs
+        pool = produced.get(item, 0)
+        take = min(pool, qty_needed)
+        qty_needed -= take
+        produced[item] = pool - take
 
-        # Done? No need to recurse further
-        if remaining == 0:
+        if qty_needed == 0:
             return
 
-        # No recipe → raw material
+        # 3) Find recipe; if no recipe => raw
+        entry, _ = get_best_recipe(item, recipes, tech_level)
         if not entry or all(k.startswith("_") for k in entry.keys()):
-            raw_needed[item] = raw_needed.get(item, 0) + remaining
+            raw_needed[item] = raw_needed.get(item, 0) + qty_needed
             return
 
-        # Determine how many times to craft to satisfy output
+        # 4) Determine outputs per craft
         outputs = entry.get("_outputs", {})
-        output_count = outputs.get(item, 1)
-        crafts_needed = ceil(remaining / output_count)
+        # Prefer the explicit output for this item if present
+        out_qty = outputs.get(item)
+        if out_qty is None:
+            # Fallback #1: if the recipe has exactly one output, assume that's the target
+            if len(outputs) == 1:
+                out_qty = next(iter(outputs.values()))
+            else:
+                # Fallback #2: assume 1 if unspecified (keeps legacy behavior)
+                out_qty = 1
 
-        # Record ALL outputs from crafting this recipe
-        for out_item, out_qty in outputs.items():
-            produced[out_item] = produced.get(out_item, 0) + crafts_needed * out_qty
+        crafts = ceil(qty_needed / out_qty)
+
+        # Record all outputs into the produced pool
+        for out_item, out_count in outputs.items():
+            produced[out_item] = produced.get(out_item, 0) + crafts * out_count
+        
+        if qty_needed > 0:
+            used_now = min(qty_needed, produced.get(item, 0))
+            produced[item] = produced.get(item, 0) - used_now
 
         # Recurse into inputs
         inputs = entry.get("_inputs", entry)
         for sub, count in inputs.items():
             if not sub.startswith("_"):
-                recurse(sub, count * crafts_needed, path + (item,))
+                recurse(sub, count * crafts, path + (item,))
 
-    recurse(name, quantity)
+    # Run once for all requested targets
+    for item, qty in targets.items():
+        if qty > 0:
+            recurse(item, qty)
+
     return raw_needed
